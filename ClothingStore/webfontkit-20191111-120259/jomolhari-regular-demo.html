@@ -1,0 +1,2030 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	(function($){$.fn.easyTabs=function(option){var param=jQuery.extend({fadeSpeed:"fast",defaultContent:1,activeClass:'active'},option);$(this).each(function(){var thisId="#"+this.id;if(param.defaultContent==''){param.defaultContent=1;}
+	if(typeof param.defaultContent=="number")
+	{var defaultTab=$(thisId+" .tabs li:eq("+(param.defaultContent-1)+") a").attr('href').substr(1);}else{var defaultTab=param.defaultContent;}
+	$(thisId+" .tabs li a").each(function(){var tabToHide=$(this).attr('href').substr(1);$("#"+tabToHide).addClass('easytabs-tab-content');});hideAll();changeContent(defaultTab);function hideAll(){$(thisId+" .easytabs-tab-content").hide();}
+	function changeContent(tabId){hideAll();$(thisId+" .tabs li").removeClass(param.activeClass);$(thisId+" .tabs li a[href=#"+tabId+"]").closest('li').addClass(param.activeClass);if(param.fadeSpeed!="none")
+	{$(thisId+" #"+tabId).fadeIn(param.fadeSpeed);}else{$(thisId+" #"+tabId).show();}}
+	$(thisId+" .tabs li").click(function(){var tabId=$(this).find('a').attr('href').substr(1);changeContent(tabId);return false;});});}})(jQuery);
+	</script>
+	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+	<style type="text/css">
+					body{
+				font-family: 'jomolhariregular';
+							}
+		</style>
+
+	<title>Jomolhari Regular Specimen</title>
+	
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('#container').easyTabs({defaultContent:1});
+		});
+	</script>
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		Jomolhari Regular	</div>
+	<ul class="tabs">
+		<li><a href="#specimen">Specimen</a></li>
+		<li><a href="#layout">Sample Layout</a></li>
+				<li><a href="#glyphs">Glyphs &amp; Languages</a></li>
+		<li><a href="#installing">Installing Webfonts</a></li>
+		
+	</ul>
+	
+	<div id="main_content">
+
+		
+			<div id="specimen">
+		
+				<div class="section">
+					<div class="grid12 firstcol">
+						<div class="huge">AaBb</div>
+					</div>
+				</div>
+		
+				<div class="section">
+					<div class="glyph_range">A&#x200B;B&#x200b;C&#x200b;D&#x200b;E&#x200b;F&#x200b;G&#x200b;H&#x200b;I&#x200b;J&#x200b;K&#x200b;L&#x200b;M&#x200b;N&#x200b;O&#x200b;P&#x200b;Q&#x200b;R&#x200b;S&#x200b;T&#x200b;U&#x200b;V&#x200b;W&#x200b;X&#x200b;Y&#x200b;Z&#x200b;a&#x200b;b&#x200b;c&#x200b;d&#x200b;e&#x200b;f&#x200b;g&#x200b;h&#x200b;i&#x200b;j&#x200b;k&#x200b;l&#x200b;m&#x200b;n&#x200b;o&#x200b;p&#x200b;q&#x200b;r&#x200b;s&#x200b;t&#x200b;u&#x200b;v&#x200b;w&#x200b;x&#x200b;y&#x200b;z&#x200b;1&#x200b;2&#x200b;3&#x200b;4&#x200b;5&#x200b;6&#x200b;7&#x200b;8&#x200b;9&#x200b;0&#x200b;&amp;&#x200b;.&#x200b;,&#x200b;?&#x200b;!&#x200b;&#64;&#x200b;(&#x200b;)&#x200b;#&#x200b;$&#x200b;%&#x200b;*&#x200b;+&#x200b;-&#x200b;=&#x200b;:&#x200b;;</div>
+				</div>
+				<div class="section">
+					<div class="grid12 firstcol">
+						<table class="sample_table">
+							<tr><td>10</td><td class="size10">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>11</td><td class="size11">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>12</td><td class="size12">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>13</td><td class="size13">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>14</td><td class="size14">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>16</td><td class="size16">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>18</td><td class="size18">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>20</td><td class="size20">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>24</td><td class="size24">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>30</td><td class="size30">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>36</td><td class="size36">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>48</td><td class="size48">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>60</td><td class="size60">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>72</td><td class="size72">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+							<tr><td>90</td><td class="size90">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</td></tr>
+						</table>
+				
+					</div>
+			
+				</div>
+		
+		
+		
+								<div class="section" id="bodycomparison">
+
+
+										<div id="xheight">
+				<div class="fontbody">&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;body</div><div class="arialbody">body</div><div class="verdanabody">body</div><div class="georgiabody">body</div></div>
+										<div class="fontbody" style="z-index:1">
+											body<span>Jomolhari Regular</span>
+										</div>
+										<div class="arialbody" style="z-index:1">
+											body<span>Arial</span>
+										</div>
+										<div class="verdanabody" style="z-index:1">
+											body<span>Verdana</span>
+										</div>
+										<div class="georgiabody" style="z-index:1">
+											body<span>Georgia</span>
+										</div>
+
+
+
+								</div>
+		
+		
+				<div class="section psample psample_row1" id="">
+					
+					<div class="grid2 firstcol">
+						<p class="size10"><span>10.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid3">
+						<p class="size11"><span>11.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid3">
+						<p class="size12"><span>12.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid4">
+						<p class="size13"><span>13.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="white_blend"></div>
+					
+				</div>
+				<div class="section psample psample_row2" id="">
+					<div class="grid3 firstcol">
+						<p class="size14"><span>14.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid4">
+						<p class="size16"><span>16.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid5">
+						<p class="size18"><span>18.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+
+					<div class="white_blend"></div>
+
+				</div>
+				
+				<div class="section psample psample_row3" id="">
+					<div class="grid5 firstcol">
+						<p class="size20"><span>20.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+					<div class="grid7">
+						<p class="size24"><span>24.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+					
+					<div class="white_blend"></div>
+					
+				</div>
+				
+				<div class="section psample psample_row4" id="">
+					<div class="grid12 firstcol">
+						<p class="size30"><span>30.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+					<div class="white_blend"></div>
+					
+				</div>
+				
+				
+				
+				<div class="section psample psample_row1 fullreverse">
+					<div class="grid2 firstcol">
+						<p class="size10"><span>10.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid3">
+						<p class="size11"><span>11.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid3">
+						<p class="size12"><span>12.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid4">
+						<p class="size13"><span>13.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="black_blend"></div>
+					
+				</div>
+				
+				<div class="section psample psample_row2 fullreverse">
+					<div class="grid3 firstcol">
+						<p class="size14"><span>14.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid4">
+						<p class="size16"><span>16.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="grid5">
+						<p class="size18"><span>18.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+			
+					</div>
+					<div class="black_blend"></div>
+
+				</div>
+				
+				<div class="section psample fullreverse psample_row3" id="">
+					<div class="grid5 firstcol">
+						<p class="size20"><span>20.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+					<div class="grid7">
+						<p class="size24"><span>24.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+					
+					<div class="black_blend"></div>
+					
+				</div>
+				
+				<div class="section psample fullreverse psample_row4" id="" style="border-bottom: 20px #000 solid;">
+					<div class="grid12 firstcol">
+						<p class="size30"><span>30.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+					<div class="black_blend"></div>
+					
+				</div>
+				
+				
+				
+				
+			</div>
+			
+			<div id="layout">
+				
+				<div class="section">
+					
+					<div class="grid12 firstcol">
+						<h1>Lorem Ipsum Dolor</h1>
+						<h2>Etiam porta sem malesuada magna mollis euismod</h2>
+						
+						<p class="byline">By <a href="#link">Aenean Lacinia</a></p>
+					</div>
+				</div>
+				<div class="section">
+					<div class="grid8 firstcol">
+						<p class="large">Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+
+						
+						<h3>Pellentesque ornare sem</h3>
+
+						<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+
+						<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+
+						<p>Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. </p>
+
+						<p>Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. </p>
+
+						<h3>Cras mattis consectetur</h3>
+
+						<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. </p>
+
+						<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+					</div>
+					
+					<div class="grid4 sidebar">
+						
+						<div class="box reverse">
+							<p class="last">Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						</div>
+						
+						<p class="caption">Maecenas sed diam eget risus varius.</p>
+
+						<p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+
+					
+
+						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. </p>
+
+						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+
+					</div>
+				</div>
+				
+			</div>
+
+
+			
+
+
+
+		<div id="glyphs">
+			<div class="section">
+				<div class="grid12 firstcol">
+			
+				<h1>Language Support</h1>
+				<p>The subset of Jomolhari Regular in this kit supports the following languages:<br />
+			
+					Albanian, Basque, Chamorro, English, Italian, Arrernte, Bislama, Cebuano, Fijian, Gilbertese, Haitian_creole, Hmong, Hopi, Ibanag, Iloko_ilokano, Indonesian, Interglossa_glosa, Interlingua, Lojban, Lombard, Manx, Norfolk_pitcairnese, Oromo, Potawatomi, Rotokas, Sardinian, Seychelles_creole, Shona, Sicilian, Somali, Southern_ndebele, Swahili, Swati_swazi, Tagalog_filipino_pilipino, Tok_pisin, Uyghur_latinized, Warlpiri, Xhosa, Zulu, Latinbasic, Ubasic, Demo				</p>
+				<h1>Glyph Chart</h1>
+				<p>The subset of Jomolhari Regular in this kit includes all the glyphs listed below. Unicode entities are included above each glyph to help you insert individual characters into your layout.</p>
+				<div id="glyph_chart">
+			
+																				 <div><p>&amp;#13;</p>&#13;</div>
+																				 <div><p>&amp;#32;</p>&#32;</div>
+																				 <div><p>&amp;#33;</p>&#33;</div>
+																				 <div><p>&amp;#34;</p>&#34;</div>
+																				 <div><p>&amp;#35;</p>&#35;</div>
+																				 <div><p>&amp;#36;</p>&#36;</div>
+																				 <div><p>&amp;#37;</p>&#37;</div>
+																				 <div><p>&amp;#38;</p>&#38;</div>
+																				 <div><p>&amp;#39;</p>&#39;</div>
+																				 <div><p>&amp;#40;</p>&#40;</div>
+																				 <div><p>&amp;#41;</p>&#41;</div>
+																				 <div><p>&amp;#42;</p>&#42;</div>
+																				 <div><p>&amp;#43;</p>&#43;</div>
+																				 <div><p>&amp;#44;</p>&#44;</div>
+																				 <div><p>&amp;#45;</p>&#45;</div>
+																				 <div><p>&amp;#46;</p>&#46;</div>
+																				 <div><p>&amp;#47;</p>&#47;</div>
+																				 <div><p>&amp;#48;</p>&#48;</div>
+																				 <div><p>&amp;#49;</p>&#49;</div>
+																				 <div><p>&amp;#50;</p>&#50;</div>
+																				 <div><p>&amp;#51;</p>&#51;</div>
+																				 <div><p>&amp;#52;</p>&#52;</div>
+																				 <div><p>&amp;#53;</p>&#53;</div>
+																				 <div><p>&amp;#54;</p>&#54;</div>
+																				 <div><p>&amp;#55;</p>&#55;</div>
+																				 <div><p>&amp;#56;</p>&#56;</div>
+																				 <div><p>&amp;#57;</p>&#57;</div>
+																				 <div><p>&amp;#58;</p>&#58;</div>
+																				 <div><p>&amp;#59;</p>&#59;</div>
+																				 <div><p>&amp;#60;</p>&#60;</div>
+																				 <div><p>&amp;#61;</p>&#61;</div>
+																				 <div><p>&amp;#62;</p>&#62;</div>
+																				 <div><p>&amp;#63;</p>&#63;</div>
+																				 <div><p>&amp;#64;</p>&#64;</div>
+																				 <div><p>&amp;#65;</p>&#65;</div>
+																				 <div><p>&amp;#66;</p>&#66;</div>
+																				 <div><p>&amp;#67;</p>&#67;</div>
+																				 <div><p>&amp;#68;</p>&#68;</div>
+																				 <div><p>&amp;#69;</p>&#69;</div>
+																				 <div><p>&amp;#70;</p>&#70;</div>
+																				 <div><p>&amp;#71;</p>&#71;</div>
+																				 <div><p>&amp;#72;</p>&#72;</div>
+																				 <div><p>&amp;#73;</p>&#73;</div>
+																				 <div><p>&amp;#74;</p>&#74;</div>
+																				 <div><p>&amp;#75;</p>&#75;</div>
+																				 <div><p>&amp;#76;</p>&#76;</div>
+																				 <div><p>&amp;#77;</p>&#77;</div>
+																				 <div><p>&amp;#78;</p>&#78;</div>
+																				 <div><p>&amp;#79;</p>&#79;</div>
+																				 <div><p>&amp;#80;</p>&#80;</div>
+																				 <div><p>&amp;#81;</p>&#81;</div>
+																				 <div><p>&amp;#82;</p>&#82;</div>
+																				 <div><p>&amp;#83;</p>&#83;</div>
+																				 <div><p>&amp;#84;</p>&#84;</div>
+																				 <div><p>&amp;#85;</p>&#85;</div>
+																				 <div><p>&amp;#86;</p>&#86;</div>
+																				 <div><p>&amp;#87;</p>&#87;</div>
+																				 <div><p>&amp;#88;</p>&#88;</div>
+																				 <div><p>&amp;#89;</p>&#89;</div>
+																				 <div><p>&amp;#90;</p>&#90;</div>
+																				 <div><p>&amp;#91;</p>&#91;</div>
+																				 <div><p>&amp;#92;</p>&#92;</div>
+																				 <div><p>&amp;#93;</p>&#93;</div>
+																				 <div><p>&amp;#94;</p>&#94;</div>
+																				 <div><p>&amp;#95;</p>&#95;</div>
+																				 <div><p>&amp;#96;</p>&#96;</div>
+																				 <div><p>&amp;#97;</p>&#97;</div>
+																				 <div><p>&amp;#98;</p>&#98;</div>
+																				 <div><p>&amp;#99;</p>&#99;</div>
+																				 <div><p>&amp;#100;</p>&#100;</div>
+																				 <div><p>&amp;#101;</p>&#101;</div>
+																				 <div><p>&amp;#102;</p>&#102;</div>
+																				 <div><p>&amp;#103;</p>&#103;</div>
+																				 <div><p>&amp;#104;</p>&#104;</div>
+																				 <div><p>&amp;#105;</p>&#105;</div>
+																				 <div><p>&amp;#106;</p>&#106;</div>
+																				 <div><p>&amp;#107;</p>&#107;</div>
+																				 <div><p>&amp;#108;</p>&#108;</div>
+																				 <div><p>&amp;#109;</p>&#109;</div>
+																				 <div><p>&amp;#110;</p>&#110;</div>
+																				 <div><p>&amp;#111;</p>&#111;</div>
+																				 <div><p>&amp;#112;</p>&#112;</div>
+																				 <div><p>&amp;#113;</p>&#113;</div>
+																				 <div><p>&amp;#114;</p>&#114;</div>
+																				 <div><p>&amp;#115;</p>&#115;</div>
+																				 <div><p>&amp;#116;</p>&#116;</div>
+																				 <div><p>&amp;#117;</p>&#117;</div>
+																				 <div><p>&amp;#118;</p>&#118;</div>
+																				 <div><p>&amp;#119;</p>&#119;</div>
+																				 <div><p>&amp;#120;</p>&#120;</div>
+																				 <div><p>&amp;#121;</p>&#121;</div>
+																				 <div><p>&amp;#122;</p>&#122;</div>
+																				 <div><p>&amp;#123;</p>&#123;</div>
+																				 <div><p>&amp;#124;</p>&#124;</div>
+																				 <div><p>&amp;#125;</p>&#125;</div>
+																				 <div><p>&amp;#126;</p>&#126;</div>
+																				 <div><p>&amp;#160;</p>&#160;</div>
+																				 <div><p>&amp;#161;</p>&#161;</div>
+																				 <div><p>&amp;#162;</p>&#162;</div>
+																				 <div><p>&amp;#163;</p>&#163;</div>
+																				 <div><p>&amp;#164;</p>&#164;</div>
+																				 <div><p>&amp;#165;</p>&#165;</div>
+																				 <div><p>&amp;#166;</p>&#166;</div>
+																				 <div><p>&amp;#167;</p>&#167;</div>
+																				 <div><p>&amp;#168;</p>&#168;</div>
+																				 <div><p>&amp;#169;</p>&#169;</div>
+																				 <div><p>&amp;#170;</p>&#170;</div>
+																				 <div><p>&amp;#171;</p>&#171;</div>
+																				 <div><p>&amp;#172;</p>&#172;</div>
+																				 <div><p>&amp;#174;</p>&#174;</div>
+																				 <div><p>&amp;#175;</p>&#175;</div>
+																				 <div><p>&amp;#8734;</p>&#8734;</div>
+																				 <div><p>&amp;#177;</p>&#177;</div>
+																				 <div><p>&amp;#8804;</p>&#8804;</div>
+																				 <div><p>&amp;#8805;</p>&#8805;</div>
+																				 <div><p>&amp;#180;</p>&#180;</div>
+																				 <div><p>&amp;#181;</p>&#181;</div>
+																				 <div><p>&amp;#8706;</p>&#8706;</div>
+																				 <div><p>&amp;#8721;</p>&#8721;</div>
+																				 <div><p>&amp;#8719;</p>&#8719;</div>
+																				 <div><p>&amp;#960;</p>&#960;</div>
+																				 <div><p>&amp;#8747;</p>&#8747;</div>
+																				 <div><p>&amp;#187;</p>&#187;</div>
+																				 <div><p>&amp;#188;</p>&#188;</div>
+																				 <div><p>&amp;#8486;</p>&#8486;</div>
+																				 <div><p>&amp;#190;</p>&#190;</div>
+																				 <div><p>&amp;#191;</p>&#191;</div>
+																				 <div><p>&amp;#192;</p>&#192;</div>
+																				 <div><p>&amp;#195;</p>&#195;</div>
+																				 <div><p>&amp;#402;</p>&#402;</div>
+																				 <div><p>&amp;#8776;</p>&#8776;</div>
+																				 <div><p>&amp;#8710;</p>&#8710;</div>
+																				 <div><p>&amp;#199;</p>&#199;</div>
+																				 <div><p>&amp;#200;</p>&#200;</div>
+																				 <div><p>&amp;#201;</p>&#201;</div>
+																				 <div><p>&amp;#202;</p>&#202;</div>
+																				 <div><p>&amp;#203;</p>&#203;</div>
+																				 <div><p>&amp;#204;</p>&#204;</div>
+																				 <div><p>&amp;#207;</p>&#207;</div>
+																				 <div><p>&amp;#208;</p>&#208;</div>
+																				 <div><p>&amp;#209;</p>&#209;</div>
+																				 <div><p>&amp;#210;</p>&#210;</div>
+																				 <div><p>&amp;#211;</p>&#211;</div>
+																				 <div><p>&amp;#213;</p>&#213;</div>
+																				 <div><p>&amp;#214;</p>&#214;</div>
+																				 <div><p>&amp;#9674;</p>&#9674;</div>
+																				 <div><p>&amp;#216;</p>&#216;</div>
+																				 <div><p>&amp;#217;</p>&#217;</div>
+																				 <div><p>&amp;#218;</p>&#218;</div>
+																				 <div><p>&amp;#219;</p>&#219;</div>
+																				 <div><p>&amp;#220;</p>&#220;</div>
+																				 <div><p>&amp;#221;</p>&#221;</div>
+																				 <div><p>&amp;#64257;</p>&#64257;</div>
+																				 <div><p>&amp;#64258;</p>&#64258;</div>
+																				 <div><p>&amp;#224;</p>&#224;</div>
+																				 <div><p>&amp;#225;</p>&#225;</div>
+																				 <div><p>&amp;#226;</p>&#226;</div>
+																				 <div><p>&amp;#227;</p>&#227;</div>
+																				 <div><p>&amp;#228;</p>&#228;</div>
+																				 <div><p>&amp;#229;</p>&#229;</div>
+																				 <div><p>&amp;#230;</p>&#230;</div>
+																				 <div><p>&amp;#231;</p>&#231;</div>
+																				 <div><p>&amp;#232;</p>&#232;</div>
+																				 <div><p>&amp;#233;</p>&#233;</div>
+																				 <div><p>&amp;#234;</p>&#234;</div>
+																				 <div><p>&amp;#235;</p>&#235;</div>
+																				 <div><p>&amp;#236;</p>&#236;</div>
+																				 <div><p>&amp;#237;</p>&#237;</div>
+																				 <div><p>&amp;#238;</p>&#238;</div>
+																				 <div><p>&amp;#239;</p>&#239;</div>
+																				 <div><p>&amp;#240;</p>&#240;</div>
+																				 <div><p>&amp;#241;</p>&#241;</div>
+																				 <div><p>&amp;#242;</p>&#242;</div>
+																				 <div><p>&amp;#243;</p>&#243;</div>
+																				 <div><p>&amp;#244;</p>&#244;</div>
+																				 <div><p>&amp;#245;</p>&#245;</div>
+																				 <div><p>&amp;#246;</p>&#246;</div>
+																				 <div><p>&amp;#247;</p>&#247;</div>
+																				 <div><p>&amp;#248;</p>&#248;</div>
+																				 <div><p>&amp;#249;</p>&#249;</div>
+																				 <div><p>&amp;#251;</p>&#251;</div>
+																				 <div><p>&amp;#252;</p>&#252;</div>
+																				 <div><p>&amp;#253;</p>&#253;</div>
+																				 <div><p>&amp;#254;</p>&#254;</div>
+																				 <div><p>&amp;#255;</p>&#255;</div>
+																				 <div><p>&amp;#297;</p>&#297;</div>
+																				 <div><p>&amp;#299;</p>&#299;</div>
+																				 <div><p>&amp;#305;</p>&#305;</div>
+																				 <div><p>&amp;#338;</p>&#338;</div>
+																				 <div><p>&amp;#339;</p>&#339;</div>
+																				 <div><p>&amp;#377;</p>&#377;</div>
+																				 <div><p>&amp;#402;</p>&#402;</div>
+																				 <div><p>&amp;#567;</p>&#567;</div>
+																				 <div><p>&amp;#710;</p>&#710;</div>
+																				 <div><p>&amp;#711;</p>&#711;</div>
+																				 <div><p>&amp;#728;</p>&#728;</div>
+																				 <div><p>&amp;#729;</p>&#729;</div>
+																				 <div><p>&amp;#730;</p>&#730;</div>
+																				 <div><p>&amp;#731;</p>&#731;</div>
+																				 <div><p>&amp;#732;</p>&#732;</div>
+																				 <div><p>&amp;#733;</p>&#733;</div>
+																				 <div><p>&amp;#769;</p>&#769;</div>
+																				 <div><p>&amp;#770;</p>&#770;</div>
+																				 <div><p>&amp;#771;</p>&#771;</div>
+																				 <div><p>&amp;#772;</p>&#772;</div>
+																				 <div><p>&amp;#774;</p>&#774;</div>
+																				 <div><p>&amp;#775;</p>&#775;</div>
+																				 <div><p>&amp;#776;</p>&#776;</div>
+																				 <div><p>&amp;#778;</p>&#778;</div>
+																				 <div><p>&amp;#779;</p>&#779;</div>
+																				 <div><p>&amp;#780;</p>&#780;</div>
+																				 <div><p>&amp;#783;</p>&#783;</div>
+																				 <div><p>&amp;#784;</p>&#784;</div>
+																				 <div><p>&amp;#786;</p>&#786;</div>
+																				 <div><p>&amp;#787;</p>&#787;</div>
+																				 <div><p>&amp;#803;</p>&#803;</div>
+																				 <div><p>&amp;#806;</p>&#806;</div>
+																				 <div><p>&amp;#807;</p>&#807;</div>
+																				 <div><p>&amp;#960;</p>&#960;</div>
+																				 <div><p>&amp;#3841;</p>&#3841;</div>
+																				 <div><p>&amp;#3842;</p>&#3842;</div>
+																				 <div><p>&amp;#3843;</p>&#3843;</div>
+																				 <div><p>&amp;#3844;</p>&#3844;</div>
+																				 <div><p>&amp;#3845;</p>&#3845;</div>
+																				 <div><p>&amp;#3846;</p>&#3846;</div>
+																				 <div><p>&amp;#3847;</p>&#3847;</div>
+																				 <div><p>&amp;#3848;</p>&#3848;</div>
+																				 <div><p>&amp;#3849;</p>&#3849;</div>
+																				 <div><p>&amp;#3850;</p>&#3850;</div>
+																				 <div><p>&amp;#3851;</p>&#3851;</div>
+																				 <div><p>&amp;#3853;</p>&#3853;</div>
+																				 <div><p>&amp;#3855;</p>&#3855;</div>
+																				 <div><p>&amp;#3856;</p>&#3856;</div>
+																				 <div><p>&amp;#3857;</p>&#3857;</div>
+																				 <div><p>&amp;#3858;</p>&#3858;</div>
+																				 <div><p>&amp;#3859;</p>&#3859;</div>
+																				 <div><p>&amp;#3860;</p>&#3860;</div>
+																				 <div><p>&amp;#3861;</p>&#3861;</div>
+																				 <div><p>&amp;#3862;</p>&#3862;</div>
+																				 <div><p>&amp;#3863;</p>&#3863;</div>
+																				 <div><p>&amp;#3864;</p>&#3864;</div>
+																				 <div><p>&amp;#3865;</p>&#3865;</div>
+																				 <div><p>&amp;#3866;</p>&#3866;</div>
+																				 <div><p>&amp;#3867;</p>&#3867;</div>
+																				 <div><p>&amp;#3868;</p>&#3868;</div>
+																				 <div><p>&amp;#3869;</p>&#3869;</div>
+																				 <div><p>&amp;#3870;</p>&#3870;</div>
+																				 <div><p>&amp;#3871;</p>&#3871;</div>
+																				 <div><p>&amp;#3872;</p>&#3872;</div>
+																				 <div><p>&amp;#3873;</p>&#3873;</div>
+																				 <div><p>&amp;#3874;</p>&#3874;</div>
+																				 <div><p>&amp;#3875;</p>&#3875;</div>
+																				 <div><p>&amp;#3876;</p>&#3876;</div>
+																				 <div><p>&amp;#3877;</p>&#3877;</div>
+																				 <div><p>&amp;#3878;</p>&#3878;</div>
+																				 <div><p>&amp;#3879;</p>&#3879;</div>
+																				 <div><p>&amp;#3880;</p>&#3880;</div>
+																				 <div><p>&amp;#3881;</p>&#3881;</div>
+																				 <div><p>&amp;#3882;</p>&#3882;</div>
+																				 <div><p>&amp;#3883;</p>&#3883;</div>
+																				 <div><p>&amp;#3884;</p>&#3884;</div>
+																				 <div><p>&amp;#3885;</p>&#3885;</div>
+																				 <div><p>&amp;#3886;</p>&#3886;</div>
+																				 <div><p>&amp;#3887;</p>&#3887;</div>
+																				 <div><p>&amp;#3888;</p>&#3888;</div>
+																				 <div><p>&amp;#3889;</p>&#3889;</div>
+																				 <div><p>&amp;#3890;</p>&#3890;</div>
+																				 <div><p>&amp;#3891;</p>&#3891;</div>
+																				 <div><p>&amp;#3892;</p>&#3892;</div>
+																				 <div><p>&amp;#3893;</p>&#3893;</div>
+																				 <div><p>&amp;#3894;</p>&#3894;</div>
+																				 <div><p>&amp;#3895;</p>&#3895;</div>
+																				 <div><p>&amp;#3896;</p>&#3896;</div>
+																				 <div><p>&amp;#3897;</p>&#3897;</div>
+																				 <div><p>&amp;#3898;</p>&#3898;</div>
+																				 <div><p>&amp;#3899;</p>&#3899;</div>
+																				 <div><p>&amp;#3900;</p>&#3900;</div>
+																				 <div><p>&amp;#3901;</p>&#3901;</div>
+																				 <div><p>&amp;#3902;</p>&#3902;</div>
+																				 <div><p>&amp;#3903;</p>&#3903;</div>
+																				 <div><p>&amp;#3904;</p>&#3904;</div>
+																				 <div><p>&amp;#3905;</p>&#3905;</div>
+																				 <div><p>&amp;#3906;</p>&#3906;</div>
+																				 <div><p>&amp;#3907;</p>&#3907;</div>
+																				 <div><p>&amp;#3908;</p>&#3908;</div>
+																				 <div><p>&amp;#3909;</p>&#3909;</div>
+																				 <div><p>&amp;#3910;</p>&#3910;</div>
+																				 <div><p>&amp;#3911;</p>&#3911;</div>
+																				 <div><p>&amp;#3912;</p>&#3912;</div>
+																				 <div><p>&amp;#3913;</p>&#3913;</div>
+																				 <div><p>&amp;#3914;</p>&#3914;</div>
+																				 <div><p>&amp;#3915;</p>&#3915;</div>
+																				 <div><p>&amp;#3916;</p>&#3916;</div>
+																				 <div><p>&amp;#3917;</p>&#3917;</div>
+																				 <div><p>&amp;#3918;</p>&#3918;</div>
+																				 <div><p>&amp;#3919;</p>&#3919;</div>
+																				 <div><p>&amp;#3920;</p>&#3920;</div>
+																				 <div><p>&amp;#3921;</p>&#3921;</div>
+																				 <div><p>&amp;#3922;</p>&#3922;</div>
+																				 <div><p>&amp;#3923;</p>&#3923;</div>
+																				 <div><p>&amp;#3924;</p>&#3924;</div>
+																				 <div><p>&amp;#3925;</p>&#3925;</div>
+																				 <div><p>&amp;#3926;</p>&#3926;</div>
+																				 <div><p>&amp;#3927;</p>&#3927;</div>
+																				 <div><p>&amp;#3928;</p>&#3928;</div>
+																				 <div><p>&amp;#3929;</p>&#3929;</div>
+																				 <div><p>&amp;#3930;</p>&#3930;</div>
+																				 <div><p>&amp;#3931;</p>&#3931;</div>
+																				 <div><p>&amp;#3932;</p>&#3932;</div>
+																				 <div><p>&amp;#3933;</p>&#3933;</div>
+																				 <div><p>&amp;#3934;</p>&#3934;</div>
+																				 <div><p>&amp;#3935;</p>&#3935;</div>
+																				 <div><p>&amp;#3936;</p>&#3936;</div>
+																				 <div><p>&amp;#3937;</p>&#3937;</div>
+																				 <div><p>&amp;#3938;</p>&#3938;</div>
+																				 <div><p>&amp;#3939;</p>&#3939;</div>
+																				 <div><p>&amp;#3940;</p>&#3940;</div>
+																				 <div><p>&amp;#3941;</p>&#3941;</div>
+																				 <div><p>&amp;#3942;</p>&#3942;</div>
+																				 <div><p>&amp;#3943;</p>&#3943;</div>
+																				 <div><p>&amp;#3944;</p>&#3944;</div>
+																				 <div><p>&amp;#3945;</p>&#3945;</div>
+																				 <div><p>&amp;#3953;</p>&#3953;</div>
+																				 <div><p>&amp;#3954;</p>&#3954;</div>
+																				 <div><p>&amp;#3956;</p>&#3956;</div>
+																				 <div><p>&amp;#3957;</p>&#3957;</div>
+																				 <div><p>&amp;#3962;</p>&#3962;</div>
+																				 <div><p>&amp;#3963;</p>&#3963;</div>
+																				 <div><p>&amp;#3964;</p>&#3964;</div>
+																				 <div><p>&amp;#3965;</p>&#3965;</div>
+																				 <div><p>&amp;#3966;</p>&#3966;</div>
+																				 <div><p>&amp;#3967;</p>&#3967;</div>
+																				 <div><p>&amp;#3968;</p>&#3968;</div>
+																				 <div><p>&amp;#3970;</p>&#3970;</div>
+																				 <div><p>&amp;#3971;</p>&#3971;</div>
+																				 <div><p>&amp;#3972;</p>&#3972;</div>
+																				 <div><p>&amp;#3973;</p>&#3973;</div>
+																				 <div><p>&amp;#3974;</p>&#3974;</div>
+																				 <div><p>&amp;#3975;</p>&#3975;</div>
+																				 <div><p>&amp;#3976;</p>&#3976;</div>
+																				 <div><p>&amp;#3977;</p>&#3977;</div>
+																				 <div><p>&amp;#3978;</p>&#3978;</div>
+																				 <div><p>&amp;#3979;</p>&#3979;</div>
+																				 <div><p>&amp;#3984;</p>&#3984;</div>
+																				 <div><p>&amp;#3985;</p>&#3985;</div>
+																				 <div><p>&amp;#3986;</p>&#3986;</div>
+																				 <div><p>&amp;#3987;</p>&#3987;</div>
+																				 <div><p>&amp;#3988;</p>&#3988;</div>
+																				 <div><p>&amp;#3989;</p>&#3989;</div>
+																				 <div><p>&amp;#3990;</p>&#3990;</div>
+																				 <div><p>&amp;#3991;</p>&#3991;</div>
+																				 <div><p>&amp;#3993;</p>&#3993;</div>
+																				 <div><p>&amp;#3994;</p>&#3994;</div>
+																				 <div><p>&amp;#3995;</p>&#3995;</div>
+																				 <div><p>&amp;#3996;</p>&#3996;</div>
+																				 <div><p>&amp;#3997;</p>&#3997;</div>
+																				 <div><p>&amp;#3998;</p>&#3998;</div>
+																				 <div><p>&amp;#3999;</p>&#3999;</div>
+																				 <div><p>&amp;#4000;</p>&#4000;</div>
+																				 <div><p>&amp;#4001;</p>&#4001;</div>
+																				 <div><p>&amp;#4002;</p>&#4002;</div>
+																				 <div><p>&amp;#4003;</p>&#4003;</div>
+																				 <div><p>&amp;#4004;</p>&#4004;</div>
+																				 <div><p>&amp;#4005;</p>&#4005;</div>
+																				 <div><p>&amp;#4006;</p>&#4006;</div>
+																				 <div><p>&amp;#4007;</p>&#4007;</div>
+																				 <div><p>&amp;#4008;</p>&#4008;</div>
+																				 <div><p>&amp;#4009;</p>&#4009;</div>
+																				 <div><p>&amp;#4010;</p>&#4010;</div>
+																				 <div><p>&amp;#4011;</p>&#4011;</div>
+																				 <div><p>&amp;#4012;</p>&#4012;</div>
+																				 <div><p>&amp;#4013;</p>&#4013;</div>
+																				 <div><p>&amp;#4014;</p>&#4014;</div>
+																				 <div><p>&amp;#4015;</p>&#4015;</div>
+																				 <div><p>&amp;#4016;</p>&#4016;</div>
+																				 <div><p>&amp;#4017;</p>&#4017;</div>
+																				 <div><p>&amp;#4018;</p>&#4018;</div>
+																				 <div><p>&amp;#4019;</p>&#4019;</div>
+																				 <div><p>&amp;#4020;</p>&#4020;</div>
+																				 <div><p>&amp;#4021;</p>&#4021;</div>
+																				 <div><p>&amp;#4022;</p>&#4022;</div>
+																				 <div><p>&amp;#4023;</p>&#4023;</div>
+																				 <div><p>&amp;#4024;</p>&#4024;</div>
+																				 <div><p>&amp;#4025;</p>&#4025;</div>
+																				 <div><p>&amp;#4026;</p>&#4026;</div>
+																				 <div><p>&amp;#4027;</p>&#4027;</div>
+																				 <div><p>&amp;#4028;</p>&#4028;</div>
+																				 <div><p>&amp;#4030;</p>&#4030;</div>
+																				 <div><p>&amp;#4031;</p>&#4031;</div>
+																				 <div><p>&amp;#4032;</p>&#4032;</div>
+																				 <div><p>&amp;#4033;</p>&#4033;</div>
+																				 <div><p>&amp;#4034;</p>&#4034;</div>
+																				 <div><p>&amp;#4035;</p>&#4035;</div>
+																				 <div><p>&amp;#4036;</p>&#4036;</div>
+																				 <div><p>&amp;#4037;</p>&#4037;</div>
+																				 <div><p>&amp;#4038;</p>&#4038;</div>
+																				 <div><p>&amp;#4039;</p>&#4039;</div>
+																				 <div><p>&amp;#4040;</p>&#4040;</div>
+																				 <div><p>&amp;#4041;</p>&#4041;</div>
+																				 <div><p>&amp;#4042;</p>&#4042;</div>
+																				 <div><p>&amp;#4043;</p>&#4043;</div>
+																				 <div><p>&amp;#4044;</p>&#4044;</div>
+																				 <div><p>&amp;#4047;</p>&#4047;</div>
+																				 <div><p>&amp;#4048;</p>&#4048;</div>
+																				 <div><p>&amp;#4049;</p>&#4049;</div>
+																				 <div><p>&amp;#8194;</p>&#8194;</div>
+																				 <div><p>&amp;#8195;</p>&#8195;</div>
+																				 <div><p>&amp;#8196;</p>&#8196;</div>
+																				 <div><p>&amp;#8197;</p>&#8197;</div>
+																				 <div><p>&amp;#8198;</p>&#8198;</div>
+																				 <div><p>&amp;#8199;</p>&#8199;</div>
+																				 <div><p>&amp;#8200;</p>&#8200;</div>
+																				 <div><p>&amp;#8201;</p>&#8201;</div>
+																				 <div><p>&amp;#8202;</p>&#8202;</div>
+																				 <div><p>&amp;#8203;</p>&#8203;</div>
+																				 <div><p>&amp;#8204;</p>&#8204;</div>
+																				 <div><p>&amp;#8205;</p>&#8205;</div>
+																				 <div><p>&amp;#8211;</p>&#8211;</div>
+																				 <div><p>&amp;#8212;</p>&#8212;</div>
+																				 <div><p>&amp;#8216;</p>&#8216;</div>
+																				 <div><p>&amp;#8217;</p>&#8217;</div>
+																				 <div><p>&amp;#8218;</p>&#8218;</div>
+																				 <div><p>&amp;#8220;</p>&#8220;</div>
+																				 <div><p>&amp;#8221;</p>&#8221;</div>
+																				 <div><p>&amp;#8222;</p>&#8222;</div>
+																				 <div><p>&amp;#8224;</p>&#8224;</div>
+																				 <div><p>&amp;#8225;</p>&#8225;</div>
+																				 <div><p>&amp;#8226;</p>&#8226;</div>
+																				 <div><p>&amp;#8230;</p>&#8230;</div>
+																				 <div><p>&amp;#8239;</p>&#8239;</div>
+																				 <div><p>&amp;#8240;</p>&#8240;</div>
+																				 <div><p>&amp;#8249;</p>&#8249;</div>
+																				 <div><p>&amp;#8250;</p>&#8250;</div>
+																				 <div><p>&amp;#8251;</p>&#8251;</div>
+																				 <div><p>&amp;#8260;</p>&#8260;</div>
+																				 <div><p>&amp;#8360;</p>&#8360;</div>
+																				 <div><p>&amp;#8364;</p>&#8364;</div>
+																				 <div><p>&amp;#8482;</p>&#8482;</div>
+																				 <div><p>&amp;#8486;</p>&#8486;</div>
+																				 <div><p>&amp;#8706;</p>&#8706;</div>
+																				 <div><p>&amp;#8710;</p>&#8710;</div>
+																				 <div><p>&amp;#8719;</p>&#8719;</div>
+																				 <div><p>&amp;#8721;</p>&#8721;</div>
+																				 <div><p>&amp;#8722;</p>&#8722;</div>
+																				 <div><p>&amp;#8730;</p>&#8730;</div>
+																				 <div><p>&amp;#8734;</p>&#8734;</div>
+																				 <div><p>&amp;#8747;</p>&#8747;</div>
+																				 <div><p>&amp;#8776;</p>&#8776;</div>
+																				 <div><p>&amp;#8804;</p>&#8804;</div>
+																				 <div><p>&amp;#8805;</p>&#8805;</div>
+																				 <div><p>&amp;#9674;</p>&#9674;</div>
+																				 <div><p>&amp;#9676;</p>&#9676;</div>
+																				 <div><p>&amp;#9724;</p>&#9724;</div>
+																				 <div><p>&amp;#9775;</p>&#9775;</div>
+																				 <div><p>&amp;#9784;</p>&#9784;</div>
+																				 <div><p>&amp;#9789;</p>&#9789;</div>
+																				 <div><p>&amp;#9790;</p>&#9790;</div>
+																				 <div><p>&amp;#12296;</p>&#12296;</div>
+																				 <div><p>&amp;#12297;</p>&#12297;</div>
+																				 <div><p>&amp;#12298;</p>&#12298;</div>
+																				 <div><p>&amp;#12299;</p>&#12299;</div>
+																				 <div><p>&amp;#12300;</p>&#12300;</div>
+																				 <div><p>&amp;#12301;</p>&#12301;</div>
+																				 <div><p>&amp;#12302;</p>&#12302;</div>
+																				 <div><p>&amp;#12303;</p>&#12303;</div>
+																				 <div><p>&amp;#12304;</p>&#12304;</div>
+																				 <div><p>&amp;#12305;</p>&#12305;</div>
+																				 <div><p>&amp;#12308;</p>&#12308;</div>
+																				 <div><p>&amp;#12309;</p>&#12309;</div>
+																				 <div><p>&amp;#12310;</p>&#12310;</div>
+																				 <div><p>&amp;#12311;</p>&#12311;</div>
+																				 <div><p>&amp;#12312;</p>&#12312;</div>
+																				 <div><p>&amp;#12313;</p>&#12313;</div>
+																				 <div><p>&amp;#12314;</p>&#12314;</div>
+																				 <div><p>&amp;#12315;</p>&#12315;</div>
+																				 <div><p>&amp;#12317;</p>&#12317;</div>
+																				 <div><p>&amp;#12318;</p>&#12318;</div>
+																				 <div><p>&amp;#12319;</p>&#12319;</div>
+																				 <div><p>&amp;#21325;</p>&#21325;</div>
+																				 <div><p>&amp;#21328;</p>&#21328;</div>
+																				 <div><p>&amp;#57344;</p>&#57344;</div>
+																				 <div><p>&amp;#62209;</p>&#62209;</div>
+																				 <div><p>&amp;#62210;</p>&#62210;</div>
+																				 <div><p>&amp;#62213;</p>&#62213;</div>
+																				 <div><p>&amp;#62216;</p>&#62216;</div>
+																				 <div><p>&amp;#62219;</p>&#62219;</div>
+																				 <div><p>&amp;#62222;</p>&#62222;</div>
+																				 <div><p>&amp;#62225;</p>&#62225;</div>
+																				 <div><p>&amp;#62228;</p>&#62228;</div>
+																				 <div><p>&amp;#62231;</p>&#62231;</div>
+																				 <div><p>&amp;#62234;</p>&#62234;</div>
+																				 <div><p>&amp;#62237;</p>&#62237;</div>
+																				 <div><p>&amp;#62238;</p>&#62238;</div>
+																				 <div><p>&amp;#62241;</p>&#62241;</div>
+																				 <div><p>&amp;#62244;</p>&#62244;</div>
+																				 <div><p>&amp;#62247;</p>&#62247;</div>
+																				 <div><p>&amp;#62250;</p>&#62250;</div>
+																				 <div><p>&amp;#62253;</p>&#62253;</div>
+																				 <div><p>&amp;#62256;</p>&#62256;</div>
+																				 <div><p>&amp;#62259;</p>&#62259;</div>
+																				 <div><p>&amp;#62262;</p>&#62262;</div>
+																				 <div><p>&amp;#62265;</p>&#62265;</div>
+																				 <div><p>&amp;#62268;</p>&#62268;</div>
+																				 <div><p>&amp;#62271;</p>&#62271;</div>
+																				 <div><p>&amp;#62274;</p>&#62274;</div>
+																				 <div><p>&amp;#62277;</p>&#62277;</div>
+																				 <div><p>&amp;#62280;</p>&#62280;</div>
+																				 <div><p>&amp;#62283;</p>&#62283;</div>
+																				 <div><p>&amp;#62286;</p>&#62286;</div>
+																				 <div><p>&amp;#62289;</p>&#62289;</div>
+																				 <div><p>&amp;#62292;</p>&#62292;</div>
+																				 <div><p>&amp;#62295;</p>&#62295;</div>
+																				 <div><p>&amp;#62298;</p>&#62298;</div>
+																				 <div><p>&amp;#62301;</p>&#62301;</div>
+																				 <div><p>&amp;#62304;</p>&#62304;</div>
+																				 <div><p>&amp;#62307;</p>&#62307;</div>
+																				 <div><p>&amp;#62310;</p>&#62310;</div>
+																				 <div><p>&amp;#62313;</p>&#62313;</div>
+																				 <div><p>&amp;#62316;</p>&#62316;</div>
+																				 <div><p>&amp;#62317;</p>&#62317;</div>
+																				 <div><p>&amp;#62320;</p>&#62320;</div>
+																				 <div><p>&amp;#62323;</p>&#62323;</div>
+																				 <div><p>&amp;#62324;</p>&#62324;</div>
+																				 <div><p>&amp;#62327;</p>&#62327;</div>
+																				 <div><p>&amp;#62330;</p>&#62330;</div>
+																				 <div><p>&amp;#62333;</p>&#62333;</div>
+																				 <div><p>&amp;#62336;</p>&#62336;</div>
+																				 <div><p>&amp;#62339;</p>&#62339;</div>
+																				 <div><p>&amp;#62342;</p>&#62342;</div>
+																				 <div><p>&amp;#62345;</p>&#62345;</div>
+																				 <div><p>&amp;#62348;</p>&#62348;</div>
+																				 <div><p>&amp;#62351;</p>&#62351;</div>
+																				 <div><p>&amp;#62354;</p>&#62354;</div>
+																				 <div><p>&amp;#62357;</p>&#62357;</div>
+																				 <div><p>&amp;#62360;</p>&#62360;</div>
+																				 <div><p>&amp;#62363;</p>&#62363;</div>
+																				 <div><p>&amp;#62366;</p>&#62366;</div>
+																				 <div><p>&amp;#62369;</p>&#62369;</div>
+																				 <div><p>&amp;#62372;</p>&#62372;</div>
+																				 <div><p>&amp;#62375;</p>&#62375;</div>
+																				 <div><p>&amp;#62378;</p>&#62378;</div>
+																				 <div><p>&amp;#62381;</p>&#62381;</div>
+																				 <div><p>&amp;#62384;</p>&#62384;</div>
+																				 <div><p>&amp;#62387;</p>&#62387;</div>
+																				 <div><p>&amp;#62390;</p>&#62390;</div>
+																				 <div><p>&amp;#62393;</p>&#62393;</div>
+																				 <div><p>&amp;#62394;</p>&#62394;</div>
+																				 <div><p>&amp;#62398;</p>&#62398;</div>
+																				 <div><p>&amp;#62401;</p>&#62401;</div>
+																				 <div><p>&amp;#62405;</p>&#62405;</div>
+																				 <div><p>&amp;#62409;</p>&#62409;</div>
+																				 <div><p>&amp;#62413;</p>&#62413;</div>
+																				 <div><p>&amp;#62422;</p>&#62422;</div>
+																				 <div><p>&amp;#62432;</p>&#62432;</div>
+																				 <div><p>&amp;#62435;</p>&#62435;</div>
+																				 <div><p>&amp;#62438;</p>&#62438;</div>
+																				 <div><p>&amp;#62441;</p>&#62441;</div>
+																				 <div><p>&amp;#62444;</p>&#62444;</div>
+																				 <div><p>&amp;#62447;</p>&#62447;</div>
+																				 <div><p>&amp;#62450;</p>&#62450;</div>
+																				 <div><p>&amp;#62451;</p>&#62451;</div>
+																				 <div><p>&amp;#62454;</p>&#62454;</div>
+																				 <div><p>&amp;#62457;</p>&#62457;</div>
+																				 <div><p>&amp;#62460;</p>&#62460;</div>
+																				 <div><p>&amp;#62463;</p>&#62463;</div>
+																				 <div><p>&amp;#62466;</p>&#62466;</div>
+																				 <div><p>&amp;#62469;</p>&#62469;</div>
+																				 <div><p>&amp;#62472;</p>&#62472;</div>
+																				 <div><p>&amp;#62474;</p>&#62474;</div>
+																				 <div><p>&amp;#62475;</p>&#62475;</div>
+																				 <div><p>&amp;#62478;</p>&#62478;</div>
+																				 <div><p>&amp;#62480;</p>&#62480;</div>
+																				 <div><p>&amp;#62481;</p>&#62481;</div>
+																				 <div><p>&amp;#62484;</p>&#62484;</div>
+																				 <div><p>&amp;#62487;</p>&#62487;</div>
+																				 <div><p>&amp;#62490;</p>&#62490;</div>
+																				 <div><p>&amp;#62493;</p>&#62493;</div>
+																				 <div><p>&amp;#62495;</p>&#62495;</div>
+																				 <div><p>&amp;#62496;</p>&#62496;</div>
+																				 <div><p>&amp;#62497;</p>&#62497;</div>
+																				 <div><p>&amp;#62498;</p>&#62498;</div>
+																				 <div><p>&amp;#62499;</p>&#62499;</div>
+																				 <div><p>&amp;#62502;</p>&#62502;</div>
+																				 <div><p>&amp;#62504;</p>&#62504;</div>
+																				 <div><p>&amp;#62505;</p>&#62505;</div>
+																				 <div><p>&amp;#62508;</p>&#62508;</div>
+																				 <div><p>&amp;#62510;</p>&#62510;</div>
+																				 <div><p>&amp;#62511;</p>&#62511;</div>
+																				 <div><p>&amp;#62514;</p>&#62514;</div>
+																				 <div><p>&amp;#62517;</p>&#62517;</div>
+																				 <div><p>&amp;#62520;</p>&#62520;</div>
+																				 <div><p>&amp;#62523;</p>&#62523;</div>
+																				 <div><p>&amp;#62526;</p>&#62526;</div>
+																				 <div><p>&amp;#62529;</p>&#62529;</div>
+																				 <div><p>&amp;#62532;</p>&#62532;</div>
+																				 <div><p>&amp;#62535;</p>&#62535;</div>
+																				 <div><p>&amp;#62538;</p>&#62538;</div>
+																				 <div><p>&amp;#62541;</p>&#62541;</div>
+																				 <div><p>&amp;#62544;</p>&#62544;</div>
+																				 <div><p>&amp;#62547;</p>&#62547;</div>
+																				 <div><p>&amp;#62548;</p>&#62548;</div>
+																				 <div><p>&amp;#62551;</p>&#62551;</div>
+																				 <div><p>&amp;#62554;</p>&#62554;</div>
+																				 <div><p>&amp;#62557;</p>&#62557;</div>
+																				 <div><p>&amp;#62560;</p>&#62560;</div>
+																				 <div><p>&amp;#62563;</p>&#62563;</div>
+																				 <div><p>&amp;#62566;</p>&#62566;</div>
+																				 <div><p>&amp;#62569;</p>&#62569;</div>
+																				 <div><p>&amp;#62572;</p>&#62572;</div>
+																				 <div><p>&amp;#62575;</p>&#62575;</div>
+																				 <div><p>&amp;#62577;</p>&#62577;</div>
+																				 <div><p>&amp;#62578;</p>&#62578;</div>
+																				 <div><p>&amp;#62581;</p>&#62581;</div>
+																				 <div><p>&amp;#62583;</p>&#62583;</div>
+																				 <div><p>&amp;#62584;</p>&#62584;</div>
+																				 <div><p>&amp;#62585;</p>&#62585;</div>
+																				 <div><p>&amp;#62587;</p>&#62587;</div>
+																				 <div><p>&amp;#62589;</p>&#62589;</div>
+																				 <div><p>&amp;#62590;</p>&#62590;</div>
+																				 <div><p>&amp;#62593;</p>&#62593;</div>
+																				 <div><p>&amp;#62596;</p>&#62596;</div>
+																				 <div><p>&amp;#62599;</p>&#62599;</div>
+																				 <div><p>&amp;#62602;</p>&#62602;</div>
+																				 <div><p>&amp;#62608;</p>&#62608;</div>
+																				 <div><p>&amp;#62611;</p>&#62611;</div>
+																				 <div><p>&amp;#62614;</p>&#62614;</div>
+																				 <div><p>&amp;#62617;</p>&#62617;</div>
+																				 <div><p>&amp;#62620;</p>&#62620;</div>
+																				 <div><p>&amp;#62623;</p>&#62623;</div>
+																				 <div><p>&amp;#62626;</p>&#62626;</div>
+																				 <div><p>&amp;#62629;</p>&#62629;</div>
+																				 <div><p>&amp;#62632;</p>&#62632;</div>
+																				 <div><p>&amp;#62635;</p>&#62635;</div>
+																				 <div><p>&amp;#62638;</p>&#62638;</div>
+																				 <div><p>&amp;#62641;</p>&#62641;</div>
+																				 <div><p>&amp;#62644;</p>&#62644;</div>
+																				 <div><p>&amp;#62650;</p>&#62650;</div>
+																				 <div><p>&amp;#62651;</p>&#62651;</div>
+																				 <div><p>&amp;#62652;</p>&#62652;</div>
+																				 <div><p>&amp;#62653;</p>&#62653;</div>
+																				 <div><p>&amp;#62654;</p>&#62654;</div>
+																				 <div><p>&amp;#62655;</p>&#62655;</div>
+																				 <div><p>&amp;#62656;</p>&#62656;</div>
+																				 <div><p>&amp;#62657;</p>&#62657;</div>
+																				 <div><p>&amp;#62660;</p>&#62660;</div>
+																				 <div><p>&amp;#62663;</p>&#62663;</div>
+																				 <div><p>&amp;#62664;</p>&#62664;</div>
+																				 <div><p>&amp;#62666;</p>&#62666;</div>
+																				 <div><p>&amp;#62669;</p>&#62669;</div>
+																				 <div><p>&amp;#62675;</p>&#62675;</div>
+																				 <div><p>&amp;#62678;</p>&#62678;</div>
+																				 <div><p>&amp;#62681;</p>&#62681;</div>
+																				 <div><p>&amp;#62684;</p>&#62684;</div>
+																				 <div><p>&amp;#62687;</p>&#62687;</div>
+																				 <div><p>&amp;#62690;</p>&#62690;</div>
+																				 <div><p>&amp;#62693;</p>&#62693;</div>
+																				 <div><p>&amp;#62696;</p>&#62696;</div>
+																				 <div><p>&amp;#62699;</p>&#62699;</div>
+																				 <div><p>&amp;#62702;</p>&#62702;</div>
+																				 <div><p>&amp;#62705;</p>&#62705;</div>
+																				 <div><p>&amp;#62708;</p>&#62708;</div>
+																				 <div><p>&amp;#62711;</p>&#62711;</div>
+																				 <div><p>&amp;#62712;</p>&#62712;</div>
+																				 <div><p>&amp;#62714;</p>&#62714;</div>
+																				 <div><p>&amp;#62717;</p>&#62717;</div>
+																				 <div><p>&amp;#62720;</p>&#62720;</div>
+																				 <div><p>&amp;#62723;</p>&#62723;</div>
+																				 <div><p>&amp;#62726;</p>&#62726;</div>
+																				 <div><p>&amp;#62728;</p>&#62728;</div>
+																				 <div><p>&amp;#62729;</p>&#62729;</div>
+																				 <div><p>&amp;#62732;</p>&#62732;</div>
+																				 <div><p>&amp;#62735;</p>&#62735;</div>
+																				 <div><p>&amp;#62738;</p>&#62738;</div>
+																				 <div><p>&amp;#62741;</p>&#62741;</div>
+																				 <div><p>&amp;#62744;</p>&#62744;</div>
+																				 <div><p>&amp;#62747;</p>&#62747;</div>
+																				 <div><p>&amp;#62750;</p>&#62750;</div>
+																				 <div><p>&amp;#62753;</p>&#62753;</div>
+																				 <div><p>&amp;#62756;</p>&#62756;</div>
+																				 <div><p>&amp;#62759;</p>&#62759;</div>
+																				 <div><p>&amp;#62762;</p>&#62762;</div>
+																				 <div><p>&amp;#62765;</p>&#62765;</div>
+																				 <div><p>&amp;#62768;</p>&#62768;</div>
+																				 <div><p>&amp;#62771;</p>&#62771;</div>
+																				 <div><p>&amp;#62774;</p>&#62774;</div>
+																				 <div><p>&amp;#62777;</p>&#62777;</div>
+																				 <div><p>&amp;#62780;</p>&#62780;</div>
+																				 <div><p>&amp;#62783;</p>&#62783;</div>
+																				 <div><p>&amp;#62786;</p>&#62786;</div>
+																				 <div><p>&amp;#62789;</p>&#62789;</div>
+																				 <div><p>&amp;#62790;</p>&#62790;</div>
+																				 <div><p>&amp;#62793;</p>&#62793;</div>
+																				 <div><p>&amp;#62796;</p>&#62796;</div>
+																				 <div><p>&amp;#62799;</p>&#62799;</div>
+																				 <div><p>&amp;#62802;</p>&#62802;</div>
+																				 <div><p>&amp;#62803;</p>&#62803;</div>
+																				 <div><p>&amp;#62806;</p>&#62806;</div>
+																				 <div><p>&amp;#62809;</p>&#62809;</div>
+																				 <div><p>&amp;#62812;</p>&#62812;</div>
+																				 <div><p>&amp;#62815;</p>&#62815;</div>
+																				 <div><p>&amp;#62818;</p>&#62818;</div>
+																				 <div><p>&amp;#62821;</p>&#62821;</div>
+																				 <div><p>&amp;#62824;</p>&#62824;</div>
+																				 <div><p>&amp;#62826;</p>&#62826;</div>
+																				 <div><p>&amp;#62827;</p>&#62827;</div>
+																				 <div><p>&amp;#62828;</p>&#62828;</div>
+																				 <div><p>&amp;#62832;</p>&#62832;</div>
+																				 <div><p>&amp;#62834;</p>&#62834;</div>
+																				 <div><p>&amp;#62837;</p>&#62837;</div>
+																				 <div><p>&amp;#62838;</p>&#62838;</div>
+																				 <div><p>&amp;#62839;</p>&#62839;</div>
+																				 <div><p>&amp;#62840;</p>&#62840;</div>
+																				 <div><p>&amp;#62842;</p>&#62842;</div>
+																				 <div><p>&amp;#62844;</p>&#62844;</div>
+																				 <div><p>&amp;#62845;</p>&#62845;</div>
+																				 <div><p>&amp;#62848;</p>&#62848;</div>
+																				 <div><p>&amp;#62853;</p>&#62853;</div>
+																				 <div><p>&amp;#62856;</p>&#62856;</div>
+																				 <div><p>&amp;#62858;</p>&#62858;</div>
+																				 <div><p>&amp;#62859;</p>&#62859;</div>
+																				 <div><p>&amp;#62860;</p>&#62860;</div>
+																				 <div><p>&amp;#62863;</p>&#62863;</div>
+																				 <div><p>&amp;#62864;</p>&#62864;</div>
+																				 <div><p>&amp;#62868;</p>&#62868;</div>
+																				 <div><p>&amp;#62869;</p>&#62869;</div>
+																				 <div><p>&amp;#62871;</p>&#62871;</div>
+																				 <div><p>&amp;#62872;</p>&#62872;</div>
+																				 <div><p>&amp;#62875;</p>&#62875;</div>
+																				 <div><p>&amp;#62876;</p>&#62876;</div>
+																				 <div><p>&amp;#62877;</p>&#62877;</div>
+																				 <div><p>&amp;#62878;</p>&#62878;</div>
+																				 <div><p>&amp;#62883;</p>&#62883;</div>
+																				 <div><p>&amp;#62886;</p>&#62886;</div>
+																				 <div><p>&amp;#62889;</p>&#62889;</div>
+																				 <div><p>&amp;#62891;</p>&#62891;</div>
+																				 <div><p>&amp;#62894;</p>&#62894;</div>
+																				 <div><p>&amp;#62897;</p>&#62897;</div>
+																				 <div><p>&amp;#62900;</p>&#62900;</div>
+																				 <div><p>&amp;#62901;</p>&#62901;</div>
+																				 <div><p>&amp;#62906;</p>&#62906;</div>
+																				 <div><p>&amp;#62907;</p>&#62907;</div>
+																				 <div><p>&amp;#62910;</p>&#62910;</div>
+																				 <div><p>&amp;#62913;</p>&#62913;</div>
+																				 <div><p>&amp;#62914;</p>&#62914;</div>
+																				 <div><p>&amp;#62917;</p>&#62917;</div>
+																				 <div><p>&amp;#62920;</p>&#62920;</div>
+																				 <div><p>&amp;#62923;</p>&#62923;</div>
+																				 <div><p>&amp;#62926;</p>&#62926;</div>
+																				 <div><p>&amp;#62929;</p>&#62929;</div>
+																				 <div><p>&amp;#62932;</p>&#62932;</div>
+																				 <div><p>&amp;#62935;</p>&#62935;</div>
+																				 <div><p>&amp;#62938;</p>&#62938;</div>
+																				 <div><p>&amp;#62941;</p>&#62941;</div>
+																				 <div><p>&amp;#62944;</p>&#62944;</div>
+																				 <div><p>&amp;#62947;</p>&#62947;</div>
+																				 <div><p>&amp;#62949;</p>&#62949;</div>
+																				 <div><p>&amp;#62950;</p>&#62950;</div>
+																				 <div><p>&amp;#62953;</p>&#62953;</div>
+																				 <div><p>&amp;#62955;</p>&#62955;</div>
+																				 <div><p>&amp;#62956;</p>&#62956;</div>
+																				 <div><p>&amp;#62957;</p>&#62957;</div>
+																				 <div><p>&amp;#62960;</p>&#62960;</div>
+																				 <div><p>&amp;#62963;</p>&#62963;</div>
+																				 <div><p>&amp;#62966;</p>&#62966;</div>
+																				 <div><p>&amp;#62969;</p>&#62969;</div>
+																				 <div><p>&amp;#62971;</p>&#62971;</div>
+																				 <div><p>&amp;#62980;</p>&#62980;</div>
+																				 <div><p>&amp;#62982;</p>&#62982;</div>
+																				 <div><p>&amp;#62983;</p>&#62983;</div>
+																				 <div><p>&amp;#62984;</p>&#62984;</div>
+																				 <div><p>&amp;#62985;</p>&#62985;</div>
+																				 <div><p>&amp;#62986;</p>&#62986;</div>
+																				 <div><p>&amp;#62991;</p>&#62991;</div>
+																				 <div><p>&amp;#62995;</p>&#62995;</div>
+																				 <div><p>&amp;#63004;</p>&#63004;</div>
+																				 <div><p>&amp;#63005;</p>&#63005;</div>
+																				 <div><p>&amp;#63007;</p>&#63007;</div>
+																				 <div><p>&amp;#63008;</p>&#63008;</div>
+																				 <div><p>&amp;#63009;</p>&#63009;</div>
+																				 <div><p>&amp;#63014;</p>&#63014;</div>
+																				 <div><p>&amp;#63015;</p>&#63015;</div>
+																				 <div><p>&amp;#63017;</p>&#63017;</div>
+																				 <div><p>&amp;#63021;</p>&#63021;</div>
+																				 <div><p>&amp;#63022;</p>&#63022;</div>
+																				 <div><p>&amp;#63030;</p>&#63030;</div>
+																				 <div><p>&amp;#63031;</p>&#63031;</div>
+																				 <div><p>&amp;#63034;</p>&#63034;</div>
+																				 <div><p>&amp;#63044;</p>&#63044;</div>
+																				 <div><p>&amp;#63053;</p>&#63053;</div>
+																				 <div><p>&amp;#63054;</p>&#63054;</div>
+																				 <div><p>&amp;#63055;</p>&#63055;</div>
+																				 <div><p>&amp;#63058;</p>&#63058;</div>
+																				 <div><p>&amp;#63059;</p>&#63059;</div>
+																				 <div><p>&amp;#63067;</p>&#63067;</div>
+																				 <div><p>&amp;#63069;</p>&#63069;</div>
+																				 <div><p>&amp;#63070;</p>&#63070;</div>
+																				 <div><p>&amp;#63073;</p>&#63073;</div>
+																				 <div><p>&amp;#63076;</p>&#63076;</div>
+																				 <div><p>&amp;#63077;</p>&#63077;</div>
+																				 <div><p>&amp;#63086;</p>&#63086;</div>
+																				 <div><p>&amp;#63088;</p>&#63088;</div>
+																				 <div><p>&amp;#63090;</p>&#63090;</div>
+																				 <div><p>&amp;#63092;</p>&#63092;</div>
+																				 <div><p>&amp;#63093;</p>&#63093;</div>
+																				 <div><p>&amp;#63096;</p>&#63096;</div>
+																				 <div><p>&amp;#63100;</p>&#63100;</div>
+																				 <div><p>&amp;#63101;</p>&#63101;</div>
+																				 <div><p>&amp;#63103;</p>&#63103;</div>
+																				 <div><p>&amp;#63105;</p>&#63105;</div>
+																				 <div><p>&amp;#63107;</p>&#63107;</div>
+																				 <div><p>&amp;#63108;</p>&#63108;</div>
+																				 <div><p>&amp;#63109;</p>&#63109;</div>
+																				 <div><p>&amp;#63112;</p>&#63112;</div>
+																				 <div><p>&amp;#63113;</p>&#63113;</div>
+																				 <div><p>&amp;#63114;</p>&#63114;</div>
+																				 <div><p>&amp;#63116;</p>&#63116;</div>
+																				 <div><p>&amp;#63117;</p>&#63117;</div>
+																				 <div><p>&amp;#63118;</p>&#63118;</div>
+																				 <div><p>&amp;#63121;</p>&#63121;</div>
+																				 <div><p>&amp;#63122;</p>&#63122;</div>
+																				 <div><p>&amp;#63123;</p>&#63123;</div>
+																				 <div><p>&amp;#63126;</p>&#63126;</div>
+																				 <div><p>&amp;#63129;</p>&#63129;</div>
+																				 <div><p>&amp;#63130;</p>&#63130;</div>
+																				 <div><p>&amp;#63132;</p>&#63132;</div>
+																				 <div><p>&amp;#63136;</p>&#63136;</div>
+																				 <div><p>&amp;#63144;</p>&#63144;</div>
+																				 <div><p>&amp;#63145;</p>&#63145;</div>
+																				 <div><p>&amp;#63146;</p>&#63146;</div>
+																				 <div><p>&amp;#63147;</p>&#63147;</div>
+																				 <div><p>&amp;#63151;</p>&#63151;</div>
+																				 <div><p>&amp;#63152;</p>&#63152;</div>
+																				 <div><p>&amp;#63153;</p>&#63153;</div>
+																				 <div><p>&amp;#63155;</p>&#63155;</div>
+																				 <div><p>&amp;#63156;</p>&#63156;</div>
+																				 <div><p>&amp;#63157;</p>&#63157;</div>
+																				 <div><p>&amp;#63158;</p>&#63158;</div>
+																				 <div><p>&amp;#63159;</p>&#63159;</div>
+																				 <div><p>&amp;#63162;</p>&#63162;</div>
+																				 <div><p>&amp;#63165;</p>&#63165;</div>
+																				 <div><p>&amp;#63166;</p>&#63166;</div>
+																				 <div><p>&amp;#63167;</p>&#63167;</div>
+																				 <div><p>&amp;#63170;</p>&#63170;</div>
+																				 <div><p>&amp;#63171;</p>&#63171;</div>
+																				 <div><p>&amp;#63173;</p>&#63173;</div>
+																				 <div><p>&amp;#63174;</p>&#63174;</div>
+																				 <div><p>&amp;#63177;</p>&#63177;</div>
+																				 <div><p>&amp;#63182;</p>&#63182;</div>
+																				 <div><p>&amp;#63183;</p>&#63183;</div>
+																				 <div><p>&amp;#63185;</p>&#63185;</div>
+																				 <div><p>&amp;#63187;</p>&#63187;</div>
+																				 <div><p>&amp;#63189;</p>&#63189;</div>
+																				 <div><p>&amp;#63190;</p>&#63190;</div>
+																				 <div><p>&amp;#63192;</p>&#63192;</div>
+																				 <div><p>&amp;#63193;</p>&#63193;</div>
+																				 <div><p>&amp;#63194;</p>&#63194;</div>
+																				 <div><p>&amp;#63197;</p>&#63197;</div>
+																				 <div><p>&amp;#63199;</p>&#63199;</div>
+																				 <div><p>&amp;#63201;</p>&#63201;</div>
+																				 <div><p>&amp;#63203;</p>&#63203;</div>
+																				 <div><p>&amp;#63207;</p>&#63207;</div>
+																				 <div><p>&amp;#63209;</p>&#63209;</div>
+																				 <div><p>&amp;#63213;</p>&#63213;</div>
+																				 <div><p>&amp;#63214;</p>&#63214;</div>
+																				 <div><p>&amp;#63215;</p>&#63215;</div>
+																				 <div><p>&amp;#63216;</p>&#63216;</div>
+																				 <div><p>&amp;#63217;</p>&#63217;</div>
+																				 <div><p>&amp;#63218;</p>&#63218;</div>
+																				 <div><p>&amp;#63219;</p>&#63219;</div>
+																				 <div><p>&amp;#63220;</p>&#63220;</div>
+																				 <div><p>&amp;#63222;</p>&#63222;</div>
+																				 <div><p>&amp;#63224;</p>&#63224;</div>
+																				 <div><p>&amp;#63227;</p>&#63227;</div>
+																				 <div><p>&amp;#63231;</p>&#63231;</div>
+																				 <div><p>&amp;#63232;</p>&#63232;</div>
+																				 <div><p>&amp;#63235;</p>&#63235;</div>
+																				 <div><p>&amp;#63236;</p>&#63236;</div>
+																				 <div><p>&amp;#63250;</p>&#63250;</div>
+																				 <div><p>&amp;#63251;</p>&#63251;</div>
+																				 <div><p>&amp;#63252;</p>&#63252;</div>
+																				 <div><p>&amp;#63253;</p>&#63253;</div>
+																				 <div><p>&amp;#63254;</p>&#63254;</div>
+																				 <div><p>&amp;#63256;</p>&#63256;</div>
+																				 <div><p>&amp;#63259;</p>&#63259;</div>
+																				 <div><p>&amp;#63260;</p>&#63260;</div>
+																				 <div><p>&amp;#63261;</p>&#63261;</div>
+																				 <div><p>&amp;#63262;</p>&#63262;</div>
+																				 <div><p>&amp;#63264;</p>&#63264;</div>
+																				 <div><p>&amp;#63265;</p>&#63265;</div>
+																				 <div><p>&amp;#63266;</p>&#63266;</div>
+																				 <div><p>&amp;#63267;</p>&#63267;</div>
+																				 <div><p>&amp;#63268;</p>&#63268;</div>
+																				 <div><p>&amp;#63269;</p>&#63269;</div>
+																				 <div><p>&amp;#63270;</p>&#63270;</div>
+																				 <div><p>&amp;#63271;</p>&#63271;</div>
+																				 <div><p>&amp;#63272;</p>&#63272;</div>
+																				 <div><p>&amp;#63275;</p>&#63275;</div>
+																				 <div><p>&amp;#63277;</p>&#63277;</div>
+																				 <div><p>&amp;#63285;</p>&#63285;</div>
+																				 <div><p>&amp;#63287;</p>&#63287;</div>
+																				 <div><p>&amp;#63288;</p>&#63288;</div>
+																				 <div><p>&amp;#63295;</p>&#63295;</div>
+																				 <div><p>&amp;#63299;</p>&#63299;</div>
+																				 <div><p>&amp;#63301;</p>&#63301;</div>
+																				 <div><p>&amp;#63304;</p>&#63304;</div>
+																				 <div><p>&amp;#63310;</p>&#63310;</div>
+																				 <div><p>&amp;#63311;</p>&#63311;</div>
+																				 <div><p>&amp;#63312;</p>&#63312;</div>
+																				 <div><p>&amp;#63313;</p>&#63313;</div>
+																				 <div><p>&amp;#63314;</p>&#63314;</div>
+																				 <div><p>&amp;#63315;</p>&#63315;</div>
+																				 <div><p>&amp;#63316;</p>&#63316;</div>
+																				 <div><p>&amp;#63317;</p>&#63317;</div>
+																				 <div><p>&amp;#63318;</p>&#63318;</div>
+																				 <div><p>&amp;#63321;</p>&#63321;</div>
+																				 <div><p>&amp;#63324;</p>&#63324;</div>
+																				 <div><p>&amp;#63325;</p>&#63325;</div>
+																				 <div><p>&amp;#63326;</p>&#63326;</div>
+																				 <div><p>&amp;#63327;</p>&#63327;</div>
+																				 <div><p>&amp;#63328;</p>&#63328;</div>
+																				 <div><p>&amp;#63329;</p>&#63329;</div>
+																				 <div><p>&amp;#63330;</p>&#63330;</div>
+																				 <div><p>&amp;#63331;</p>&#63331;</div>
+																				 <div><p>&amp;#63333;</p>&#63333;</div>
+																				 <div><p>&amp;#63336;</p>&#63336;</div>
+																				 <div><p>&amp;#63337;</p>&#63337;</div>
+																				 <div><p>&amp;#63340;</p>&#63340;</div>
+																				 <div><p>&amp;#63342;</p>&#63342;</div>
+																				 <div><p>&amp;#63347;</p>&#63347;</div>
+																				 <div><p>&amp;#63351;</p>&#63351;</div>
+																				 <div><p>&amp;#63353;</p>&#63353;</div>
+																				 <div><p>&amp;#63354;</p>&#63354;</div>
+																				 <div><p>&amp;#63356;</p>&#63356;</div>
+																				 <div><p>&amp;#63357;</p>&#63357;</div>
+																				 <div><p>&amp;#63358;</p>&#63358;</div>
+																				 <div><p>&amp;#63361;</p>&#63361;</div>
+																				 <div><p>&amp;#63368;</p>&#63368;</div>
+																				 <div><p>&amp;#63369;</p>&#63369;</div>
+																				 <div><p>&amp;#63370;</p>&#63370;</div>
+																				 <div><p>&amp;#63371;</p>&#63371;</div>
+																				 <div><p>&amp;#63374;</p>&#63374;</div>
+																				 <div><p>&amp;#63375;</p>&#63375;</div>
+																				 <div><p>&amp;#63378;</p>&#63378;</div>
+																				 <div><p>&amp;#63379;</p>&#63379;</div>
+																				 <div><p>&amp;#63381;</p>&#63381;</div>
+																				 <div><p>&amp;#63382;</p>&#63382;</div>
+																				 <div><p>&amp;#63383;</p>&#63383;</div>
+																				 <div><p>&amp;#63385;</p>&#63385;</div>
+																				 <div><p>&amp;#63387;</p>&#63387;</div>
+																				 <div><p>&amp;#63388;</p>&#63388;</div>
+																				 <div><p>&amp;#63391;</p>&#63391;</div>
+																				 <div><p>&amp;#63393;</p>&#63393;</div>
+																				 <div><p>&amp;#63396;</p>&#63396;</div>
+																				 <div><p>&amp;#63397;</p>&#63397;</div>
+																				 <div><p>&amp;#63399;</p>&#63399;</div>
+																				 <div><p>&amp;#63401;</p>&#63401;</div>
+																				 <div><p>&amp;#63402;</p>&#63402;</div>
+																				 <div><p>&amp;#63403;</p>&#63403;</div>
+																				 <div><p>&amp;#63404;</p>&#63404;</div>
+																				 <div><p>&amp;#63405;</p>&#63405;</div>
+																				 <div><p>&amp;#63407;</p>&#63407;</div>
+																				 <div><p>&amp;#63408;</p>&#63408;</div>
+																				 <div><p>&amp;#63412;</p>&#63412;</div>
+																				 <div><p>&amp;#63413;</p>&#63413;</div>
+																				 <div><p>&amp;#63415;</p>&#63415;</div>
+																				 <div><p>&amp;#63416;</p>&#63416;</div>
+																				 <div><p>&amp;#63417;</p>&#63417;</div>
+																				 <div><p>&amp;#63419;</p>&#63419;</div>
+																				 <div><p>&amp;#63427;</p>&#63427;</div>
+																				 <div><p>&amp;#63428;</p>&#63428;</div>
+																				 <div><p>&amp;#63432;</p>&#63432;</div>
+																				 <div><p>&amp;#63433;</p>&#63433;</div>
+																				 <div><p>&amp;#63434;</p>&#63434;</div>
+																				 <div><p>&amp;#63436;</p>&#63436;</div>
+																				 <div><p>&amp;#63437;</p>&#63437;</div>
+																				 <div><p>&amp;#63438;</p>&#63438;</div>
+																				 <div><p>&amp;#63440;</p>&#63440;</div>
+																				 <div><p>&amp;#63445;</p>&#63445;</div>
+																				 <div><p>&amp;#63448;</p>&#63448;</div>
+																				 <div><p>&amp;#63450;</p>&#63450;</div>
+																				 <div><p>&amp;#63455;</p>&#63455;</div>
+																				 <div><p>&amp;#63456;</p>&#63456;</div>
+																				 <div><p>&amp;#63457;</p>&#63457;</div>
+																				 <div><p>&amp;#63458;</p>&#63458;</div>
+																				 <div><p>&amp;#63459;</p>&#63459;</div>
+																				 <div><p>&amp;#63462;</p>&#63462;</div>
+																				 <div><p>&amp;#63463;</p>&#63463;</div>
+																				 <div><p>&amp;#63464;</p>&#63464;</div>
+																				 <div><p>&amp;#63466;</p>&#63466;</div>
+																				 <div><p>&amp;#63468;</p>&#63468;</div>
+																				 <div><p>&amp;#63470;</p>&#63470;</div>
+																				 <div><p>&amp;#63475;</p>&#63475;</div>
+																				 <div><p>&amp;#63476;</p>&#63476;</div>
+																				 <div><p>&amp;#63482;</p>&#63482;</div>
+																				 <div><p>&amp;#63483;</p>&#63483;</div>
+																				 <div><p>&amp;#63485;</p>&#63485;</div>
+																				 <div><p>&amp;#63492;</p>&#63492;</div>
+																				 <div><p>&amp;#63493;</p>&#63493;</div>
+																				 <div><p>&amp;#63494;</p>&#63494;</div>
+																				 <div><p>&amp;#63496;</p>&#63496;</div>
+																				 <div><p>&amp;#63504;</p>&#63504;</div>
+																				 <div><p>&amp;#63506;</p>&#63506;</div>
+																				 <div><p>&amp;#63508;</p>&#63508;</div>
+																				 <div><p>&amp;#63509;</p>&#63509;</div>
+																				 <div><p>&amp;#63511;</p>&#63511;</div>
+																				 <div><p>&amp;#63513;</p>&#63513;</div>
+																				 <div><p>&amp;#63515;</p>&#63515;</div>
+																				 <div><p>&amp;#63518;</p>&#63518;</div>
+																				 <div><p>&amp;#63519;</p>&#63519;</div>
+																				 <div><p>&amp;#63520;</p>&#63520;</div>
+																				 <div><p>&amp;#63522;</p>&#63522;</div>
+																				 <div><p>&amp;#63523;</p>&#63523;</div>
+																				 <div><p>&amp;#63524;</p>&#63524;</div>
+																				 <div><p>&amp;#63525;</p>&#63525;</div>
+																				 <div><p>&amp;#63526;</p>&#63526;</div>
+																				 <div><p>&amp;#63528;</p>&#63528;</div>
+																				 <div><p>&amp;#63531;</p>&#63531;</div>
+																				 <div><p>&amp;#63533;</p>&#63533;</div>
+																				 <div><p>&amp;#63535;</p>&#63535;</div>
+																				 <div><p>&amp;#63536;</p>&#63536;</div>
+																				 <div><p>&amp;#63537;</p>&#63537;</div>
+																				 <div><p>&amp;#63538;</p>&#63538;</div>
+																				 <div><p>&amp;#63539;</p>&#63539;</div>
+																				 <div><p>&amp;#63541;</p>&#63541;</div>
+																				 <div><p>&amp;#63546;</p>&#63546;</div>
+																				 <div><p>&amp;#63549;</p>&#63549;</div>
+																				 <div><p>&amp;#63550;</p>&#63550;</div>
+																				 <div><p>&amp;#63551;</p>&#63551;</div>
+																				 <div><p>&amp;#63552;</p>&#63552;</div>
+																				 <div><p>&amp;#63555;</p>&#63555;</div>
+																				 <div><p>&amp;#63556;</p>&#63556;</div>
+																				 <div><p>&amp;#63558;</p>&#63558;</div>
+																				 <div><p>&amp;#63560;</p>&#63560;</div>
+																				 <div><p>&amp;#63561;</p>&#63561;</div>
+																				 <div><p>&amp;#63563;</p>&#63563;</div>
+																				 <div><p>&amp;#63564;</p>&#63564;</div>
+																				 <div><p>&amp;#63566;</p>&#63566;</div>
+																				 <div><p>&amp;#63568;</p>&#63568;</div>
+																				 <div><p>&amp;#63569;</p>&#63569;</div>
+																				 <div><p>&amp;#63571;</p>&#63571;</div>
+																				 <div><p>&amp;#63573;</p>&#63573;</div>
+																				 <div><p>&amp;#63576;</p>&#63576;</div>
+																				 <div><p>&amp;#63577;</p>&#63577;</div>
+																				 <div><p>&amp;#63578;</p>&#63578;</div>
+																				 <div><p>&amp;#63579;</p>&#63579;</div>
+																				 <div><p>&amp;#63583;</p>&#63583;</div>
+																				 <div><p>&amp;#63584;</p>&#63584;</div>
+																				 <div><p>&amp;#63588;</p>&#63588;</div>
+																				 <div><p>&amp;#63590;</p>&#63590;</div>
+																				 <div><p>&amp;#63591;</p>&#63591;</div>
+																				 <div><p>&amp;#63592;</p>&#63592;</div>
+																				 <div><p>&amp;#63593;</p>&#63593;</div>
+																				 <div><p>&amp;#63595;</p>&#63595;</div>
+																				 <div><p>&amp;#63601;</p>&#63601;</div>
+																				 <div><p>&amp;#63602;</p>&#63602;</div>
+																				 <div><p>&amp;#63604;</p>&#63604;</div>
+																				 <div><p>&amp;#63605;</p>&#63605;</div>
+																				 <div><p>&amp;#63606;</p>&#63606;</div>
+																				 <div><p>&amp;#63607;</p>&#63607;</div>
+																				 <div><p>&amp;#63608;</p>&#63608;</div>
+																				 <div><p>&amp;#63610;</p>&#63610;</div>
+																				 <div><p>&amp;#63611;</p>&#63611;</div>
+																				 <div><p>&amp;#63613;</p>&#63613;</div>
+																				 <div><p>&amp;#63614;</p>&#63614;</div>
+																				 <div><p>&amp;#63617;</p>&#63617;</div>
+																				 <div><p>&amp;#63618;</p>&#63618;</div>
+																				 <div><p>&amp;#63621;</p>&#63621;</div>
+																				 <div><p>&amp;#63627;</p>&#63627;</div>
+																				 <div><p>&amp;#63633;</p>&#63633;</div>
+																				 <div><p>&amp;#63635;</p>&#63635;</div>
+																				 <div><p>&amp;#63636;</p>&#63636;</div>
+																				 <div><p>&amp;#63638;</p>&#63638;</div>
+																				 <div><p>&amp;#63639;</p>&#63639;</div>
+																				 <div><p>&amp;#63640;</p>&#63640;</div>
+																				 <div><p>&amp;#63641;</p>&#63641;</div>
+																				 <div><p>&amp;#63643;</p>&#63643;</div>
+																				 <div><p>&amp;#63644;</p>&#63644;</div>
+																				 <div><p>&amp;#63650;</p>&#63650;</div>
+																				 <div><p>&amp;#63653;</p>&#63653;</div>
+																				 <div><p>&amp;#63654;</p>&#63654;</div>
+																				 <div><p>&amp;#63656;</p>&#63656;</div>
+																				 <div><p>&amp;#63657;</p>&#63657;</div>
+																				 <div><p>&amp;#63659;</p>&#63659;</div>
+																				 <div><p>&amp;#63660;</p>&#63660;</div>
+																				 <div><p>&amp;#63662;</p>&#63662;</div>
+																				 <div><p>&amp;#63665;</p>&#63665;</div>
+																				 <div><p>&amp;#63666;</p>&#63666;</div>
+																				 <div><p>&amp;#63667;</p>&#63667;</div>
+																				 <div><p>&amp;#63670;</p>&#63670;</div>
+																				 <div><p>&amp;#63673;</p>&#63673;</div>
+																				 <div><p>&amp;#63683;</p>&#63683;</div>
+																				 <div><p>&amp;#63684;</p>&#63684;</div>
+																				 <div><p>&amp;#63685;</p>&#63685;</div>
+																				 <div><p>&amp;#63686;</p>&#63686;</div>
+																				 <div><p>&amp;#63687;</p>&#63687;</div>
+																				 <div><p>&amp;#63688;</p>&#63688;</div>
+																				 <div><p>&amp;#63689;</p>&#63689;</div>
+																				 <div><p>&amp;#63690;</p>&#63690;</div>
+																				 <div><p>&amp;#63691;</p>&#63691;</div>
+																				 <div><p>&amp;#63702;</p>&#63702;</div>
+																				 <div><p>&amp;#63704;</p>&#63704;</div>
+																				 <div><p>&amp;#63705;</p>&#63705;</div>
+																				 <div><p>&amp;#63706;</p>&#63706;</div>
+																				 <div><p>&amp;#63707;</p>&#63707;</div>
+																				 <div><p>&amp;#63708;</p>&#63708;</div>
+																				 <div><p>&amp;#63710;</p>&#63710;</div>
+																				 <div><p>&amp;#63711;</p>&#63711;</div>
+																				 <div><p>&amp;#63713;</p>&#63713;</div>
+																				 <div><p>&amp;#63714;</p>&#63714;</div>
+																				 <div><p>&amp;#63715;</p>&#63715;</div>
+																				 <div><p>&amp;#63716;</p>&#63716;</div>
+																				 <div><p>&amp;#63717;</p>&#63717;</div>
+																				 <div><p>&amp;#63720;</p>&#63720;</div>
+																				 <div><p>&amp;#63728;</p>&#63728;</div>
+																				 <div><p>&amp;#63729;</p>&#63729;</div>
+																				 <div><p>&amp;#63730;</p>&#63730;</div>
+																				 <div><p>&amp;#63732;</p>&#63732;</div>
+																				 <div><p>&amp;#63733;</p>&#63733;</div>
+																				 <div><p>&amp;#63734;</p>&#63734;</div>
+																				 <div><p>&amp;#63735;</p>&#63735;</div>
+																				 <div><p>&amp;#63737;</p>&#63737;</div>
+																				 <div><p>&amp;#63740;</p>&#63740;</div>
+																				 <div><p>&amp;#63741;</p>&#63741;</div>
+																				 <div><p>&amp;#63742;</p>&#63742;</div>
+																				 <div><p>&amp;#64257;</p>&#64257;</div>
+																				 <div><p>&amp;#64258;</p>&#64258;</div>
+																				 <div><p>&amp;#65279;</p>&#65279;</div>
+																				 <div><p>&amp;#65529;</p>&#65529;</div>
+																				 <div><p>&amp;#65530;</p>&#65530;</div>
+																				 <div><p>&amp;#65531;</p>&#65531;</div>
+																				 <div><p>&amp;#65532;</p>&#65532;</div>
+																				 <div><p>&amp;#65533;</p>&#65533;</div>
+																				 <div><p>&amp;#983056;</p>&#983056;</div>
+																				 <div><p>&amp;#983057;</p>&#983057;</div>
+																				 <div><p>&amp;#983068;</p>&#983068;</div>
+																				 <div><p>&amp;#983071;</p>&#983071;</div>
+																				 <div><p>&amp;#983072;</p>&#983072;</div>
+																				 <div><p>&amp;#983077;</p>&#983077;</div>
+																				 <div><p>&amp;#983089;</p>&#983089;</div>
+																				 <div><p>&amp;#983090;</p>&#983090;</div>
+																				 <div><p>&amp;#983093;</p>&#983093;</div>
+																				 <div><p>&amp;#983096;</p>&#983096;</div>
+																				 <div><p>&amp;#983098;</p>&#983098;</div>
+																				 <div><p>&amp;#983100;</p>&#983100;</div>
+																				 <div><p>&amp;#983101;</p>&#983101;</div>
+																				 <div><p>&amp;#983105;</p>&#983105;</div>
+																				 <div><p>&amp;#983106;</p>&#983106;</div>
+																				 <div><p>&amp;#983111;</p>&#983111;</div>
+																				 <div><p>&amp;#983112;</p>&#983112;</div>
+																				 <div><p>&amp;#983115;</p>&#983115;</div>
+																				 <div><p>&amp;#983116;</p>&#983116;</div>
+																				 <div><p>&amp;#983122;</p>&#983122;</div>
+																				 <div><p>&amp;#983123;</p>&#983123;</div>
+																				 <div><p>&amp;#983125;</p>&#983125;</div>
+																				 <div><p>&amp;#983132;</p>&#983132;</div>
+																				 <div><p>&amp;#983134;</p>&#983134;</div>
+																				 <div><p>&amp;#983135;</p>&#983135;</div>
+																				 <div><p>&amp;#983138;</p>&#983138;</div>
+																				 <div><p>&amp;#983139;</p>&#983139;</div>
+																				 <div><p>&amp;#983142;</p>&#983142;</div>
+																				 <div><p>&amp;#983149;</p>&#983149;</div>
+																				 <div><p>&amp;#983150;</p>&#983150;</div>
+																				 <div><p>&amp;#983155;</p>&#983155;</div>
+																				 <div><p>&amp;#983156;</p>&#983156;</div>
+																				 <div><p>&amp;#983157;</p>&#983157;</div>
+																				 <div><p>&amp;#983170;</p>&#983170;</div>
+																				 <div><p>&amp;#983171;</p>&#983171;</div>
+																				 <div><p>&amp;#983172;</p>&#983172;</div>
+																				 <div><p>&amp;#983175;</p>&#983175;</div>
+																				 <div><p>&amp;#983176;</p>&#983176;</div>
+																				 <div><p>&amp;#983187;</p>&#983187;</div>
+																				 <div><p>&amp;#983188;</p>&#983188;</div>
+																				 <div><p>&amp;#983190;</p>&#983190;</div>
+																				 <div><p>&amp;#983202;</p>&#983202;</div>
+																				 <div><p>&amp;#983203;</p>&#983203;</div>
+																				 <div><p>&amp;#983206;</p>&#983206;</div>
+																				 <div><p>&amp;#983207;</p>&#983207;</div>
+																				 <div><p>&amp;#983218;</p>&#983218;</div>
+																				 <div><p>&amp;#983219;</p>&#983219;</div>
+																				 <div><p>&amp;#983222;</p>&#983222;</div>
+																				 <div><p>&amp;#983223;</p>&#983223;</div>
+																				 <div><p>&amp;#983232;</p>&#983232;</div>
+																				 <div><p>&amp;#983235;</p>&#983235;</div>
+																				 <div><p>&amp;#983237;</p>&#983237;</div>
+																				 <div><p>&amp;#983238;</p>&#983238;</div>
+																				 <div><p>&amp;#983245;</p>&#983245;</div>
+																				 <div><p>&amp;#983246;</p>&#983246;</div>
+																				 <div><p>&amp;#983249;</p>&#983249;</div>
+																				 <div><p>&amp;#983250;</p>&#983250;</div>
+																				 <div><p>&amp;#983259;</p>&#983259;</div>
+																				 <div><p>&amp;#983260;</p>&#983260;</div>
+																				 <div><p>&amp;#983261;</p>&#983261;</div>
+																				 <div><p>&amp;#983262;</p>&#983262;</div>
+																				 <div><p>&amp;#983263;</p>&#983263;</div>
+																				 <div><p>&amp;#983271;</p>&#983271;</div>
+																				 <div><p>&amp;#983272;</p>&#983272;</div>
+																				 <div><p>&amp;#983274;</p>&#983274;</div>
+																				 <div><p>&amp;#983275;</p>&#983275;</div>
+																				 <div><p>&amp;#983278;</p>&#983278;</div>
+																				 <div><p>&amp;#983279;</p>&#983279;</div>
+																				 <div><p>&amp;#983285;</p>&#983285;</div>
+																				 <div><p>&amp;#983288;</p>&#983288;</div>
+																				 <div><p>&amp;#983289;</p>&#983289;</div>
+																				 <div><p>&amp;#983298;</p>&#983298;</div>
+																				 <div><p>&amp;#983301;</p>&#983301;</div>
+																				 <div><p>&amp;#983308;</p>&#983308;</div>
+																				 <div><p>&amp;#983309;</p>&#983309;</div>
+																				 <div><p>&amp;#983310;</p>&#983310;</div>
+																				 <div><p>&amp;#983312;</p>&#983312;</div>
+																				 <div><p>&amp;#983318;</p>&#983318;</div>
+																				 <div><p>&amp;#983320;</p>&#983320;</div>
+																				 <div><p>&amp;#983321;</p>&#983321;</div>
+																				 <div><p>&amp;#983327;</p>&#983327;</div>
+																				 <div><p>&amp;#983328;</p>&#983328;</div>
+																				 <div><p>&amp;#983330;</p>&#983330;</div>
+																				 <div><p>&amp;#983331;</p>&#983331;</div>
+																				 <div><p>&amp;#983340;</p>&#983340;</div>
+																				 <div><p>&amp;#983343;</p>&#983343;</div>
+																				 <div><p>&amp;#983344;</p>&#983344;</div>
+																				 <div><p>&amp;#983345;</p>&#983345;</div>
+																				 <div><p>&amp;#983347;</p>&#983347;</div>
+																				 <div><p>&amp;#983360;</p>&#983360;</div>
+																				 <div><p>&amp;#983361;</p>&#983361;</div>
+																				 <div><p>&amp;#983364;</p>&#983364;</div>
+																				 <div><p>&amp;#983385;</p>&#983385;</div>
+																				 <div><p>&amp;#983391;</p>&#983391;</div>
+																				 <div><p>&amp;#983440;</p>&#983440;</div>
+																				 <div><p>&amp;#983443;</p>&#983443;</div>
+																				 <div><p>&amp;#983447;</p>&#983447;</div>
+																				 <div><p>&amp;#983448;</p>&#983448;</div>
+																				 <div><p>&amp;#983451;</p>&#983451;</div>
+																				 <div><p>&amp;#983452;</p>&#983452;</div>
+																				 <div><p>&amp;#983461;</p>&#983461;</div>
+																				 <div><p>&amp;#983462;</p>&#983462;</div>
+																				 <div><p>&amp;#983465;</p>&#983465;</div>
+																				 <div><p>&amp;#983466;</p>&#983466;</div>
+																				 <div><p>&amp;#983469;</p>&#983469;</div>
+																				 <div><p>&amp;#983470;</p>&#983470;</div>
+																				 <div><p>&amp;#983471;</p>&#983471;</div>
+																				 <div><p>&amp;#983474;</p>&#983474;</div>
+																				 <div><p>&amp;#983475;</p>&#983475;</div>
+																				 <div><p>&amp;#983483;</p>&#983483;</div>
+																				 <div><p>&amp;#983484;</p>&#983484;</div>
+																				 <div><p>&amp;#983489;</p>&#983489;</div>
+																				 <div><p>&amp;#983490;</p>&#983490;</div>
+																				 <div><p>&amp;#983497;</p>&#983497;</div>
+																				 <div><p>&amp;#983502;</p>&#983502;</div>
+																				 <div><p>&amp;#983504;</p>&#983504;</div>
+																				 <div><p>&amp;#983510;</p>&#983510;</div>
+																				 <div><p>&amp;#983512;</p>&#983512;</div>
+																				 <div><p>&amp;#983516;</p>&#983516;</div>
+																				 <div><p>&amp;#983520;</p>&#983520;</div>
+																				 <div><p>&amp;#983522;</p>&#983522;</div>
+																				 <div><p>&amp;#983532;</p>&#983532;</div>
+																				 <div><p>&amp;#983533;</p>&#983533;</div>
+																				 <div><p>&amp;#983537;</p>&#983537;</div>
+																				 <div><p>&amp;#983547;</p>&#983547;</div>
+																				 <div><p>&amp;#983549;</p>&#983549;</div>
+																				 <div><p>&amp;#983600;</p>&#983600;</div>
+																				 <div><p>&amp;#983641;</p>&#983641;</div>
+																				 <div><p>&amp;#983674;</p>&#983674;</div>
+																				 <div><p>&amp;#983682;</p>&#983682;</div>
+																				 <div><p>&amp;#983707;</p>&#983707;</div>
+																				 <div><p>&amp;#983719;</p>&#983719;</div>
+																				 <div><p>&amp;#983751;</p>&#983751;</div>
+																				 <div><p>&amp;#983772;</p>&#983772;</div>
+																				 <div><p>&amp;#983773;</p>&#983773;</div>
+																				 <div><p>&amp;#983779;</p>&#983779;</div>
+																				 <div><p>&amp;#983802;</p>&#983802;</div>
+																				 <div><p>&amp;#983803;</p>&#983803;</div>
+																				 <div><p>&amp;#983807;</p>&#983807;</div>
+																				 <div><p>&amp;#983808;</p>&#983808;</div>
+																				 <div><p>&amp;#983819;</p>&#983819;</div>
+																				 <div><p>&amp;#983823;</p>&#983823;</div>
+																				 <div><p>&amp;#983834;</p>&#983834;</div>
+																				 <div><p>&amp;#983885;</p>&#983885;</div>
+																				 <div><p>&amp;#983904;</p>&#983904;</div>
+																				 <div><p>&amp;#983908;</p>&#983908;</div>
+																				 <div><p>&amp;#983930;</p>&#983930;</div>
+																				 <div><p>&amp;#983946;</p>&#983946;</div>
+																				 <div><p>&amp;#983961;</p>&#983961;</div>
+																				 <div><p>&amp;#983978;</p>&#983978;</div>
+																				 <div><p>&amp;#983988;</p>&#983988;</div>
+																				 <div><p>&amp;#984002;</p>&#984002;</div>
+																				 <div><p>&amp;#984012;</p>&#984012;</div>
+																				 <div><p>&amp;#984013;</p>&#984013;</div>
+																				 <div><p>&amp;#984039;</p>&#984039;</div>
+																				 <div><p>&amp;#984048;</p>&#984048;</div>
+																				 <div><p>&amp;#984069;</p>&#984069;</div>
+																				 <div><p>&amp;#984078;</p>&#984078;</div>
+																				 <div><p>&amp;#984079;</p>&#984079;</div>
+																				 <div><p>&amp;#984082;</p>&#984082;</div>
+																				 <div><p>&amp;#984127;</p>&#984127;</div>
+																				 <div><p>&amp;#984138;</p>&#984138;</div>
+																				 <div><p>&amp;#984147;</p>&#984147;</div>
+																				 <div><p>&amp;#984149;</p>&#984149;</div>
+																				 <div><p>&amp;#984152;</p>&#984152;</div>
+																				 <div><p>&amp;#984182;</p>&#984182;</div>
+																				 <div><p>&amp;#984183;</p>&#984183;</div>
+																				 <div><p>&amp;#984189;</p>&#984189;</div>
+																				 <div><p>&amp;#984190;</p>&#984190;</div>
+																				 <div><p>&amp;#984202;</p>&#984202;</div>
+																				 <div><p>&amp;#984215;</p>&#984215;</div>
+																				 <div><p>&amp;#984226;</p>&#984226;</div>
+																				 <div><p>&amp;#984232;</p>&#984232;</div>
+																				 <div><p>&amp;#984243;</p>&#984243;</div>
+																				 <div><p>&amp;#984249;</p>&#984249;</div>
+																				 <div><p>&amp;#984252;</p>&#984252;</div>
+																				 <div><p>&amp;#984253;</p>&#984253;</div>
+																				 <div><p>&amp;#984261;</p>&#984261;</div>
+																				 <div><p>&amp;#984306;</p>&#984306;</div>
+																				 <div><p>&amp;#984315;</p>&#984315;</div>
+																				 <div><p>&amp;#984321;</p>&#984321;</div>
+																				 <div><p>&amp;#984329;</p>&#984329;</div>
+																				 <div><p>&amp;#984333;</p>&#984333;</div>
+																				 <div><p>&amp;#984371;</p>&#984371;</div>
+																				 <div><p>&amp;#984377;</p>&#984377;</div>
+																				 <div><p>&amp;#984432;</p>&#984432;</div>
+																				 <div><p>&amp;#984478;</p>&#984478;</div>
+																				 <div><p>&amp;#984489;</p>&#984489;</div>
+																				 <div><p>&amp;#984490;</p>&#984490;</div>
+																				 <div><p>&amp;#984509;</p>&#984509;</div>
+																				 <div><p>&amp;#984510;</p>&#984510;</div>
+																				 <div><p>&amp;#984513;</p>&#984513;</div>
+																				 <div><p>&amp;#984514;</p>&#984514;</div>
+																				 <div><p>&amp;#984540;</p>&#984540;</div>
+																				 <div><p>&amp;#984546;</p>&#984546;</div>
+																				 <div><p>&amp;#984547;</p>&#984547;</div>
+																				 <div><p>&amp;#984550;</p>&#984550;</div>
+																				 <div><p>&amp;#984551;</p>&#984551;</div>
+																				 <div><p>&amp;#984557;</p>&#984557;</div>
+																				 <div><p>&amp;#984558;</p>&#984558;</div>
+																				 <div><p>&amp;#984559;</p>&#984559;</div>
+																				 <div><p>&amp;#984560;</p>&#984560;</div>
+																				 <div><p>&amp;#984565;</p>&#984565;</div>
+																				 <div><p>&amp;#984579;</p>&#984579;</div>
+																				 <div><p>&amp;#984580;</p>&#984580;</div>
+																				 <div><p>&amp;#984589;</p>&#984589;</div>
+																				 <div><p>&amp;#984592;</p>&#984592;</div>
+																				 <div><p>&amp;#984593;</p>&#984593;</div>
+																				 <div><p>&amp;#984603;</p>&#984603;</div>
+																				 <div><p>&amp;#984604;</p>&#984604;</div>
+																				 <div><p>&amp;#984605;</p>&#984605;</div>
+																				 <div><p>&amp;#984606;</p>&#984606;</div>
+																				 <div><p>&amp;#984608;</p>&#984608;</div>
+																				 <div><p>&amp;#984609;</p>&#984609;</div>
+																				 <div><p>&amp;#984612;</p>&#984612;</div>
+																				 <div><p>&amp;#984613;</p>&#984613;</div>
+																				 <div><p>&amp;#984616;</p>&#984616;</div>
+																				 <div><p>&amp;#984617;</p>&#984617;</div>
+																				 <div><p>&amp;#984623;</p>&#984623;</div>
+																				 <div><p>&amp;#984624;</p>&#984624;</div>
+																				 <div><p>&amp;#984630;</p>&#984630;</div>
+																				 <div><p>&amp;#984631;</p>&#984631;</div>
+																				 <div><p>&amp;#984633;</p>&#984633;</div>
+																				 <div><p>&amp;#984634;</p>&#984634;</div>
+																				 <div><p>&amp;#984637;</p>&#984637;</div>
+																				 <div><p>&amp;#984643;</p>&#984643;</div>
+																				 <div><p>&amp;#984644;</p>&#984644;</div>
+																				 <div><p>&amp;#984646;</p>&#984646;</div>
+																				 <div><p>&amp;#984649;</p>&#984649;</div>
+																				 <div><p>&amp;#984650;</p>&#984650;</div>
+																				 <div><p>&amp;#984651;</p>&#984651;</div>
+																				 <div><p>&amp;#984653;</p>&#984653;</div>
+																				 <div><p>&amp;#984655;</p>&#984655;</div>
+																				 <div><p>&amp;#984656;</p>&#984656;</div>
+																				 <div><p>&amp;#984663;</p>&#984663;</div>
+																				 <div><p>&amp;#984664;</p>&#984664;</div>
+																				 <div><p>&amp;#984666;</p>&#984666;</div>
+																				 <div><p>&amp;#984676;</p>&#984676;</div>
+																				 <div><p>&amp;#984677;</p>&#984677;</div>
+																				 <div><p>&amp;#984690;</p>&#984690;</div>
+																				 <div><p>&amp;#984699;</p>&#984699;</div>
+																				 <div><p>&amp;#984700;</p>&#984700;</div>
+																				 <div><p>&amp;#984710;</p>&#984710;</div>
+																				 <div><p>&amp;#984711;</p>&#984711;</div>
+																				 <div><p>&amp;#984729;</p>&#984729;</div>
+																				 <div><p>&amp;#984746;</p>&#984746;</div>
+																				 <div><p>&amp;#984762;</p>&#984762;</div>
+																				 <div><p>&amp;#984763;</p>&#984763;</div>
+																				 <div><p>&amp;#984773;</p>&#984773;</div>
+																				 <div><p>&amp;#984831;</p>&#984831;</div>
+																				 <div><p>&amp;#984850;</p>&#984850;</div>
+																				 <div><p>&amp;#984867;</p>&#984867;</div>
+																				 <div><p>&amp;#984868;</p>&#984868;</div>
+																				 <div><p>&amp;#984878;</p>&#984878;</div>
+																				 <div><p>&amp;#984879;</p>&#984879;</div>
+																				 <div><p>&amp;#984881;</p>&#984881;</div>
+																				 <div><p>&amp;#984909;</p>&#984909;</div>
+																				 <div><p>&amp;#984920;</p>&#984920;</div>
+																				 <div><p>&amp;#984930;</p>&#984930;</div>
+																				 <div><p>&amp;#984981;</p>&#984981;</div>
+																				 <div><p>&amp;#984998;</p>&#984998;</div>
+																				 <div><p>&amp;#984999;</p>&#984999;</div>
+																				 <div><p>&amp;#985003;</p>&#985003;</div>
+																				 <div><p>&amp;#985033;</p>&#985033;</div>
+																				 <div><p>&amp;#985037;</p>&#985037;</div>
+																				 <div><p>&amp;#985055;</p>&#985055;</div>
+																				 <div><p>&amp;#985073;</p>&#985073;</div>
+																				 <div><p>&amp;#985074;</p>&#985074;</div>
+																				 <div><p>&amp;#985083;</p>&#985083;</div>
+																				 <div><p>&amp;#985084;</p>&#985084;</div>
+																				 <div><p>&amp;#985087;</p>&#985087;</div>
+																				 <div><p>&amp;#985109;</p>&#985109;</div>
+																				 <div><p>&amp;#985136;</p>&#985136;</div>
+																				 <div><p>&amp;#985155;</p>&#985155;</div>
+																				 <div><p>&amp;#985160;</p>&#985160;</div>
+																				 <div><p>&amp;#985184;</p>&#985184;</div>
+																				 <div><p>&amp;#985199;</p>&#985199;</div>
+																				 <div><p>&amp;#985203;</p>&#985203;</div>
+																				 <div><p>&amp;#985207;</p>&#985207;</div>
+																				 <div><p>&amp;#985247;</p>&#985247;</div>
+																				 <div><p>&amp;#985261;</p>&#985261;</div>
+																				 <div><p>&amp;#985271;</p>&#985271;</div>
+																				 <div><p>&amp;#985285;</p>&#985285;</div>
+																				 <div><p>&amp;#985290;</p>&#985290;</div>
+																				 <div><p>&amp;#985307;</p>&#985307;</div>
+																				 <div><p>&amp;#985328;</p>&#985328;</div>
+																				 <div><p>&amp;#985332;</p>&#985332;</div>
+																				 <div><p>&amp;#985344;</p>&#985344;</div>
+																				 <div><p>&amp;#985348;</p>&#985348;</div>
+																				 <div><p>&amp;#985351;</p>&#985351;</div>
+																				 <div><p>&amp;#985388;</p>&#985388;</div>
+																				 <div><p>&amp;#985424;</p>&#985424;</div>
+																				 <div><p>&amp;#985433;</p>&#985433;</div>
+																				 <div><p>&amp;#985446;</p>&#985446;</div>
+																				 <div><p>&amp;#985447;</p>&#985447;</div>
+																				 <div><p>&amp;#985467;</p>&#985467;</div>
+																				 <div><p>&amp;#985472;</p>&#985472;</div>
+																				 <div><p>&amp;#985473;</p>&#985473;</div>
+																				 <div><p>&amp;#985480;</p>&#985480;</div>
+																				 <div><p>&amp;#985489;</p>&#985489;</div>
+																				 <div><p>&amp;#985490;</p>&#985490;</div>
+																				 <div><p>&amp;#985517;</p>&#985517;</div>
+																				 <div><p>&amp;#985543;</p>&#985543;</div>
+																				 <div><p>&amp;#985569;</p>&#985569;</div>
+																				 <div><p>&amp;#985576;</p>&#985576;</div>
+																				 <div><p>&amp;#985594;</p>&#985594;</div>
+																				 <div><p>&amp;#985604;</p>&#985604;</div>
+																				 <div><p>&amp;#985615;</p>&#985615;</div>
+																				 <div><p>&amp;#985658;</p>&#985658;</div>
+																				 <div><p>&amp;#985685;</p>&#985685;</div>
+																				 <div><p>&amp;#985712;</p>&#985712;</div>
+																				 <div><p>&amp;#985740;</p>&#985740;</div>
+																				 <div><p>&amp;#985751;</p>&#985751;</div>
+																				 <div><p>&amp;#985834;</p>&#985834;</div>
+																				 <div><p>&amp;#985843;</p>&#985843;</div>
+																				 <div><p>&amp;#985875;</p>&#985875;</div>
+																				 <div><p>&amp;#985876;</p>&#985876;</div>
+																				 <div><p>&amp;#985877;</p>&#985877;</div>
+																				 <div><p>&amp;#985880;</p>&#985880;</div>
+																				 <div><p>&amp;#985887;</p>&#985887;</div>
+																				 <div><p>&amp;#985888;</p>&#985888;</div>
+																				 <div><p>&amp;#985908;</p>&#985908;</div>
+																				 <div><p>&amp;#985909;</p>&#985909;</div>
+																				 <div><p>&amp;#985920;</p>&#985920;</div>
+																				 <div><p>&amp;#985922;</p>&#985922;</div>
+																				 <div><p>&amp;#985960;</p>&#985960;</div>
+																				 <div><p>&amp;#985961;</p>&#985961;</div>
+																				 <div><p>&amp;#985966;</p>&#985966;</div>
+																				 <div><p>&amp;#985971;</p>&#985971;</div>
+																				 <div><p>&amp;#985972;</p>&#985972;</div>
+																				 <div><p>&amp;#985974;</p>&#985974;</div>
+																				 <div><p>&amp;#985996;</p>&#985996;</div>
+																				 <div><p>&amp;#986019;</p>&#986019;</div>
+																				 <div><p>&amp;#986020;</p>&#986020;</div>
+																				 <div><p>&amp;#986032;</p>&#986032;</div>
+																				 <div><p>&amp;#986059;</p>&#986059;</div>
+																				 <div><p>&amp;#986088;</p>&#986088;</div>
+																				 <div><p>&amp;#986122;</p>&#986122;</div>
+																				 <div><p>&amp;#986130;</p>&#986130;</div>
+																				 <div><p>&amp;#986159;</p>&#986159;</div>
+																				 <div><p>&amp;#986174;</p>&#986174;</div>
+																				 <div><p>&amp;#986179;</p>&#986179;</div>
+																				 <div><p>&amp;#986180;</p>&#986180;</div>
+																				 <div><p>&amp;#986184;</p>&#986184;</div>
+																				 <div><p>&amp;#986185;</p>&#986185;</div>
+																				 <div><p>&amp;#986186;</p>&#986186;</div>
+																				 <div><p>&amp;#986192;</p>&#986192;</div>
+																				 <div><p>&amp;#986199;</p>&#986199;</div>
+																				 <div><p>&amp;#986261;</p>&#986261;</div>
+																				 <div><p>&amp;#986262;</p>&#986262;</div>
+																				 <div><p>&amp;#986280;</p>&#986280;</div>
+																				 <div><p>&amp;#986284;</p>&#986284;</div>
+																				 <div><p>&amp;#986285;</p>&#986285;</div>
+																				 <div><p>&amp;#986302;</p>&#986302;</div>
+																				 <div><p>&amp;#986331;</p>&#986331;</div>
+																				 <div><p>&amp;#986339;</p>&#986339;</div>
+																				 <div><p>&amp;#986384;</p>&#986384;</div>
+																				 <div><p>&amp;#986398;</p>&#986398;</div>
+																				 <div><p>&amp;#986399;</p>&#986399;</div>
+																				 <div><p>&amp;#986401;</p>&#986401;</div>
+																				 <div><p>&amp;#986402;</p>&#986402;</div>
+																				 <div><p>&amp;#986406;</p>&#986406;</div>
+																				 <div><p>&amp;#986418;</p>&#986418;</div>
+																				 <div><p>&amp;#986431;</p>&#986431;</div>
+																				 <div><p>&amp;#986455;</p>&#986455;</div>
+																				 <div><p>&amp;#986456;</p>&#986456;</div>
+																				 <div><p>&amp;#986468;</p>&#986468;</div>
+																				 <div><p>&amp;#986484;</p>&#986484;</div>
+																				 <div><p>&amp;#986498;</p>&#986498;</div>
+																				 <div><p>&amp;#986500;</p>&#986500;</div>
+																				 <div><p>&amp;#986511;</p>&#986511;</div>
+																				 <div><p>&amp;#986517;</p>&#986517;</div>
+																				 <div><p>&amp;#986524;</p>&#986524;</div>
+																				 <div><p>&amp;#986544;</p>&#986544;</div>
+																				 <div><p>&amp;#986595;</p>&#986595;</div>
+																				 <div><p>&amp;#986611;</p>&#986611;</div>
+																				 <div><p>&amp;#986623;</p>&#986623;</div>
+																				 <div><p>&amp;#986639;</p>&#986639;</div>
+																				 <div><p>&amp;#986650;</p>&#986650;</div>
+																				 <div><p>&amp;#986655;</p>&#986655;</div>
+																				 <div><p>&amp;#986661;</p>&#986661;</div>
+																				 <div><p>&amp;#986683;</p>&#986683;</div>
+																				 <div><p>&amp;#986687;</p>&#986687;</div>
+																				 <div><p>&amp;#986705;</p>&#986705;</div>
+																				 <div><p>&amp;#986720;</p>&#986720;</div>
+																				 <div><p>&amp;#986727;</p>&#986727;</div>
+																				 <div><p>&amp;#986760;</p>&#986760;</div>
+																				 <div><p>&amp;#986771;</p>&#986771;</div>
+																				 <div><p>&amp;#986784;</p>&#986784;</div>
+																				 <div><p>&amp;#986799;</p>&#986799;</div>
+																				 <div><p>&amp;#986833;</p>&#986833;</div>
+																				 <div><p>&amp;#986877;</p>&#986877;</div>
+																				 <div><p>&amp;#986921;</p>&#986921;</div>
+																				 <div><p>&amp;#986924;</p>&#986924;</div>
+																				 <div><p>&amp;#986925;</p>&#986925;</div>
+																				 <div><p>&amp;#986932;</p>&#986932;</div>
+																				 <div><p>&amp;#986942;</p>&#986942;</div>
+																				 <div><p>&amp;#986943;</p>&#986943;</div>
+																				 <div><p>&amp;#986952;</p>&#986952;</div>
+																				 <div><p>&amp;#986954;</p>&#986954;</div>
+																				 <div><p>&amp;#986974;</p>&#986974;</div>
+																				 <div><p>&amp;#986975;</p>&#986975;</div>
+																				 <div><p>&amp;#986978;</p>&#986978;</div>
+																				 <div><p>&amp;#986979;</p>&#986979;</div>
+																				 <div><p>&amp;#986996;</p>&#986996;</div>
+																				 <div><p>&amp;#986997;</p>&#986997;</div>
+																				 <div><p>&amp;#987026;</p>&#987026;</div>
+																				 <div><p>&amp;#987067;</p>&#987067;</div>
+																				 <div><p>&amp;#987085;</p>&#987085;</div>
+																				 <div><p>&amp;#987092;</p>&#987092;</div>
+																				 <div><p>&amp;#987103;</p>&#987103;</div>
+																				 <div><p>&amp;#987129;</p>&#987129;</div>
+																				 <div><p>&amp;#987130;</p>&#987130;</div>
+																				 <div><p>&amp;#987159;</p>&#987159;</div>
+																				 <div><p>&amp;#987160;</p>&#987160;</div>
+																				 <div><p>&amp;#987163;</p>&#987163;</div>
+																				 <div><p>&amp;#987202;</p>&#987202;</div>
+																				 <div><p>&amp;#987247;</p>&#987247;</div>
+																				 <div><p>&amp;#987248;</p>&#987248;</div>
+																				 <div><p>&amp;#987255;</p>&#987255;</div>
+																				 <div><p>&amp;#987256;</p>&#987256;</div>
+																				 <div><p>&amp;#987257;</p>&#987257;</div>
+																				 <div><p>&amp;#987267;</p>&#987267;</div>
+																				 <div><p>&amp;#987298;</p>&#987298;</div>
+																				 <div><p>&amp;#987299;</p>&#987299;</div>
+																				 <div><p>&amp;#987306;</p>&#987306;</div>
+																				 <div><p>&amp;#987310;</p>&#987310;</div>
+																				 <div><p>&amp;#987318;</p>&#987318;</div>
+																				 <div><p>&amp;#987349;</p>&#987349;</div>
+																				 <div><p>&amp;#987357;</p>&#987357;</div>
+																				 <div><p>&amp;#987371;</p>&#987371;</div>
+																				 <div><p>&amp;#987381;</p>&#987381;</div>
+																				 <div><p>&amp;#987408;</p>&#987408;</div>
+																				 <div><p>&amp;#987425;</p>&#987425;</div>
+																				 <div><p>&amp;#987523;</p>&#987523;</div>
+																				 <div><p>&amp;#987526;</p>&#987526;</div>
+																				 <div><p>&amp;#987527;</p>&#987527;</div>
+																				 <div><p>&amp;#987534;</p>&#987534;</div>
+																				 <div><p>&amp;#987535;</p>&#987535;</div>
+																				 <div><p>&amp;#987545;</p>&#987545;</div>
+																				 <div><p>&amp;#987634;</p>&#987634;</div>
+																				 <div><p>&amp;#987635;</p>&#987635;</div>
+																				 <div><p>&amp;#987639;</p>&#987639;</div>
+																				 <div><p>&amp;#987643;</p>&#987643;</div>
+																				 <div><p>&amp;#987644;</p>&#987644;</div>
+																				 <div><p>&amp;#987647;</p>&#987647;</div>
+																				 <div><p>&amp;#987648;</p>&#987648;</div>
+																				 <div><p>&amp;#987763;</p>&#987763;</div>
+																				 <div><p>&amp;#987792;</p>&#987792;</div>
+																				 <div><p>&amp;#987793;</p>&#987793;</div>
+																				 <div><p>&amp;#987837;</p>&#987837;</div>
+																				 <div><p>&amp;#987890;</p>&#987890;</div>
+																				 <div><p>&amp;#987921;</p>&#987921;</div>
+																				 <div><p>&amp;#987934;</p>&#987934;</div>
+																				 <div><p>&amp;#987959;</p>&#987959;</div>
+																				 <div><p>&amp;#987980;</p>&#987980;</div>
+																				 <div><p>&amp;#988033;</p>&#988033;</div>
+																				 <div><p>&amp;#988047;</p>&#988047;</div>
+																				 <div><p>&amp;#988048;</p>&#988048;</div>
+																				 <div><p>&amp;#988064;</p>&#988064;</div>
+																				 <div><p>&amp;#988119;</p>&#988119;</div>
+																				 <div><p>&amp;#988121;</p>&#988121;</div>
+																				 <div><p>&amp;#988131;</p>&#988131;</div>
+																				 <div><p>&amp;#988145;</p>&#988145;</div>
+																				 <div><p>&amp;#988173;</p>&#988173;</div>
+																				 <div><p>&amp;#988185;</p>&#988185;</div>
+																				 <div><p>&amp;#988197;</p>&#988197;</div>
+																				 <div><p>&amp;#988209;</p>&#988209;</div>
+																				 <div><p>&amp;#988242;</p>&#988242;</div>
+																				 <div><p>&amp;#988257;</p>&#988257;</div>
+																				 <div><p>&amp;#988266;</p>&#988266;</div>
+																				 <div><p>&amp;#988291;</p>&#988291;</div>
+																				 <div><p>&amp;#988306;</p>&#988306;</div>
+																				 <div><p>&amp;#988320;</p>&#988320;</div>
+																				 <div><p>&amp;#988332;</p>&#988332;</div>
+																				 <div><p>&amp;#988333;</p>&#988333;</div>
+																				 <div><p>&amp;#988344;</p>&#988344;</div>
+																				 <div><p>&amp;#988354;</p>&#988354;</div>
+																				 <div><p>&amp;#988376;</p>&#988376;</div>
+																				 <div><p>&amp;#988385;</p>&#988385;</div>
+																				 <div><p>&amp;#988387;</p>&#988387;</div>
+																				 <div><p>&amp;#988394;</p>&#988394;</div>
+																				 <div><p>&amp;#988395;</p>&#988395;</div>
+																				 <div><p>&amp;#988399;</p>&#988399;</div>
+																				 <div><p>&amp;#988417;</p>&#988417;</div>
+																				 <div><p>&amp;#988419;</p>&#988419;</div>
+																				 <div><p>&amp;#988446;</p>&#988446;</div>
+																				 <div><p>&amp;#988469;</p>&#988469;</div>
+																				 <div><p>&amp;#988514;</p>&#988514;</div>
+																				 <div><p>&amp;#988561;</p>&#988561;</div>
+																				 <div><p>&amp;#988604;</p>&#988604;</div>
+																				 <div><p>&amp;#988612;</p>&#988612;</div>
+																				 <div><p>&amp;#988613;</p>&#988613;</div>
+																				 <div><p>&amp;#988614;</p>&#988614;</div>
+																				 <div><p>&amp;#988617;</p>&#988617;</div>
+																				 <div><p>&amp;#988618;</p>&#988618;</div>
+																				 <div><p>&amp;#988650;</p>&#988650;</div>
+																				 <div><p>&amp;#988660;</p>&#988660;</div>
+																				 <div><p>&amp;#988670;</p>&#988670;</div>
+																				 <div><p>&amp;#988689;</p>&#988689;</div>
+																				 <div><p>&amp;#988690;</p>&#988690;</div>
+																				 <div><p>&amp;#988693;</p>&#988693;</div>
+																				 <div><p>&amp;#988694;</p>&#988694;</div>
+																				 <div><p>&amp;#988695;</p>&#988695;</div>
+																				 <div><p>&amp;#988696;</p>&#988696;</div>
+																				 <div><p>&amp;#988699;</p>&#988699;</div>
+																				 <div><p>&amp;#988700;</p>&#988700;</div>
+																				 <div><p>&amp;#988701;</p>&#988701;</div>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												</div>	
+				</div>
+		
+		
+			</div>
+		</div>
+		
+		
+		<div id="specs">
+			
+		</div>
+	
+		<div id="installing">
+			<div class="section">
+				<div class="grid7 firstcol">
+					<h1>Installing Webfonts</h1>
+					
+					<p>Webfonts are supported by all major browser platforms but not all in the same way. There are currently four different font formats that must be included in order to target all browsers. This includes TTF, WOFF, EOT and SVG.</p>
+					
+					<h2>1. Upload your webfonts</h2>
+					<p>You must upload your webfont kit to your website. They should be in or near the same directory as your CSS files.</p>
+					
+					<h2>2. Include the webfont stylesheet</h2>
+					<p>A special CSS @font-face declaration helps the various browsers select the appropriate font it needs without causing you a bunch of headaches. Learn more about this syntax by reading the <a href="https://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">Fontspring blog post</a> about it. The code for it is as follows:</p>
+
+
+<code>
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+</code>
+
+	<p>We've already gone ahead and generated the code for you. All you have to do is link to the stylesheet in your HTML, like this:</p>
+	<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;stylesheet.css&quot; type=&quot;text/css&quot; charset=&quot;utf-8&quot; /&gt;</code>
+
+					<h2>3. Modify your own stylesheet</h2>
+					<p>To take advantage of your new fonts, you must tell your stylesheet to use them. Look at the original @font-face declaration above and find the property called "font-family." The name linked there will be what you use to reference the font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:</p>
+<code>p { font-family: 'WebFont', Arial, sans-serif; }</code>
+
+<h2>4. Test</h2>
+<p>Getting webfonts to work cross-browser <em>can</em> be tricky. Use the information in the sidebar to help you if you find that fonts aren't loading in a particular browser.</p>
+				</div>
+				
+				<div class="grid5 sidebar">
+					<div class="box">
+						<h2>Troubleshooting<br />Font-Face Problems</h2>
+						<p>Having trouble getting your webfonts to load in your new website? Here are some tips to sort out what might be the problem.</p>
+
+						<h3>Fonts not showing in any browser</h3>
+
+						<p>This sounds like you need to work on the plumbing. You either did not upload the fonts to the correct directory, or you did not link the fonts properly in the CSS. If you've confirmed that all this is correct and you still have a problem, take a look at your .htaccess file and see if requests are getting intercepted.</p>
+
+						<h3>Fonts not loading in iPhone or iPad</h3>
+
+						<p>The most common problem here is that you are serving the fonts from an IIS server. IIS refuses to serve files that have unknown MIME types. If that is the case, you must set the MIME type for SVG to "image/svg+xml" in the server settings. Follow these instructions from Microsoft if you need help.</p>
+
+						<h3>Fonts not loading in Firefox</h3>
+
+						<p>The primary reason for this failure? You are still using a version Firefox older than 3.5. So upgrade already! If that isn't it, then you are very likely serving fonts from a different domain. Firefox requires that all font assets be served from the same domain. Lastly it is possible that you need to add WOFF to your list of MIME types (if you are serving via IIS.)</p>
+
+						<h3>Fonts not loading in IE</h3>
+
+						<p>Are you looking at Internet Explorer on an actual Windows machine or are you cheating by using a service like Adobe BrowserLab? Many of these screenshot services do not render @font-face for IE. Best to test it on a real machine.</p>
+
+						<h3>Fonts not loading in IE9</h3>
+
+						<p>IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+	<div id="footer">
+		<p>&copy;2010-2017 Font Squirrel. All rights reserved.</p>
+	</div>
+</div>
+</body>
+</html>
