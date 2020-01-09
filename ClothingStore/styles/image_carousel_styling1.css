@@ -1,0 +1,30 @@
+/*
+
+#image_show img{
+    position: relative;
+    margin-left: 30%;
+}*/
+
+#left{
+    position: relative;
+    margin-left: 1%;
+    margin-top: 10%;
+    float: left;
+
+}
+#right{
+    position: relative;
+    margin-right: 1%;
+    margin-top: 10%;
+    float: right;
+    
+}
+
+
+#slideshows{
+    
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 2%;;
+ 
+}
