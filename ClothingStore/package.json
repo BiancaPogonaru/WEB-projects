@@ -1,0 +1,27 @@
+{
+  "name": "my_package",
+  "version": "1.0.0",
+  "description": "web-project",
+  "main": "men.js",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "js-datepicker": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiancaPogonaru/WEB-projects.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BiancaPogonaru/WEB-projects/issues"
+  },
+  "homepage": "https://github.com/BiancaPogonaru/WEB-projects#readme"
+}
